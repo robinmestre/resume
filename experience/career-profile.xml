@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Career Profile Schema v1.0
+  Optimized for Claude Opus 4.5 attention patterns:
+  - Identity/contact at TOP (high attention zone)
+  - Keywords at END (high attention zone)
+  - Hierarchical nesting for selective retrieval
+  Last updated: 2026-01-13
+-->
+<career-profile version="1.0" last-updated="2026-01-13">
+
+  <!-- HIGH ATTENTION ZONE: Identity and Contact -->
+  <identity>
+    <name>Robin Mestre</name>
+    <current-title>Principal AI Architect (Generative AI)</current-title>
+    <current-employer>McDonald's Corporation</current-employer>
+    <location>Chicago, IL</location>
+    <citizenship>US Citizen</citizenship>
+    <contact>
+      <phone>(847) 767-2777</phone>
+      <email>robinm@principiogroup.com</email>
+      <linkedin>https://www.linkedin.com/in/robinmestre/</linkedin>
+    </contact>
+    <languages>
+      <language proficiency="fluent">English</language>
+      <language proficiency="fluent">Afrikaans</language>
+      <language proficiency="learning">French</language>
+    </languages>
+    <career-span years="35">1989-Present</career-span>
+  </identity>
+
+  <!-- KEY METRICS: Quick scanning for achievement magnitude -->
+  <key-metrics>
+    <metric id="ai-use-cases" value="325" context="McDonald's AI strategy across 8 business functions"/>
+    <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering, 9 months"/>
+    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune tablet initiative"/>
+    <metric id="people-trained" value="784+" context="GCP Champs (154+166) + competitive intel (500+)"/>
+    <metric id="program-contributors" value="88" context="Google Cloud Industry Business Architecture"/>
+    <metric id="architecture-artifacts" value="45+" context="McDonald's architecture operating model"/>
+    <metric id="internal-investment" value="$2.5M" context="Microsoft strategic partnerships (2013-2014)"/>
+  </key-metrics>
+
+  <!-- EXPERTISE TAXONOMY: Multi-level skill hierarchy -->
+  <expertise>
+    <!-- Tier 1: Deep Expertise (10+ years) -->
+    <domain id="enterprise-architecture" tier="1" years="20+">
+      <name>Enterprise Architecture</name>
+      <skills>
+        <skill>Target state architecture</skill>
+        <skill>Architecture operating model</skill>
+        <skill>Capability modeling</skill>
+        <skill>Value stream mapping</skill>
+        <skill>Architecture governance</skill>
+        <skill>Vendor assessment</skill>
+        <skill>SOA design</skill>
+      </skills>
+      <technologies>
+        <tech>TOGAF</tech>
+        <tech>BIZBOK</tech>
+        <tech>ArchiMate</tech>
+        <tech>SIPOC</tech>
+      </technologies>
+    </domain>
+
+    <domain id="cloud-platforms" tier="1" years="15+">
+      <name>Cloud Platforms</name>
+      <skills>
+        <skill>Cloud architecture</skill>
+        <skill>Migration strategy</skill>
+        <skill>Multi-cloud design</skill>
+        <skill>Edge computing</skill>
+        <skill>TCO analysis</skill>
+        <skill>Cloud security</skill>
+      </skills>
+      <technologies>
+        <tech>Google Cloud Platform</tech>
+        <tech>Microsoft Azure</tech>
+        <tech>Vertex AI</tech>
+        <tech>BigQuery</tech>
+        <tech>Kubernetes</tech>
+        <tech>Cloud Run</tech>
+        <tech>Firebase</tech>
+      </technologies>
+    </domain>
+
+    <domain id="technology-evangelism" tier="1" years="20+">
+      <name>Technology Evangelism</name>
+      <skills>
+        <skill>Executive presentations</skill>
+        <skill>Technical storytelling</skill>
+        <skill>Competitive positioning</skill>
+        <skill>Thought leadership</skill>
+        <skill>Public speaking</skill>
+        <skill>Content development</skill>
+      </skills>
+      <technologies>
+        <tech>Presentation tools</tech>
+        <tech>Demo environments</tech>
+        <tech>Prototype development</tech>
+      </technologies>
+    </domain>
+
+    <domain id="program-management" tier="1" years="15+">
+      <name>Program Management</name>
+      <skills>
+        <skill>Cross-functional leadership</skill>
+        <skill>Stakeholder management</skill>
+        <skill>Global program execution</skill>
+        <skill>Volunteer coordination</skill>
+        <skill>Methodology development</skill>
+        <skill>Training program design</skill>
+      </skills>
+      <technologies>
+        <tech>LMS platforms</tech>
+        <tech>Project tracking tools</tech>
+        <tech>AppSheet</tech>
+      </technologies>
+    </domain>
+
+    <!-- Tier 2: Strong Expertise (5-10 years) -->
+    <domain id="ai-ml" tier="2" years="8+">
+      <name>AI/ML and Generative AI</name>
+      <skills>
+        <skill>AI platform architecture</skill>
+        <skill>Multi-agent systems</skill>
+        <skill>RAG pipelines</skill>
+        <skill>Prompt engineering</skill>
+        <skill>AI governance</skill>
+        <skill>Responsible AI</skill>
+        <skill>Use case analysis</skill>
+      </skills>
+      <technologies>
+        <tech>Gemini</tech>
+        <tech>Claude</tech>
+        <tech>Llama</tech>
+        <tech>A2A Protocol</tech>
+        <tech>MCP</tech>
+        <tech>LangChain</tech>
+        <tech>Vertex AI</tech>
+        <tech>Agent Development Kit</tech>
+      </technologies>
+    </domain>
+
+    <domain id="value-engineering" tier="2" years="7+">
+      <name>Value Engineering</name>
+      <skills>
+        <skill>TCO analysis</skill>
+        <skill>Business case development</skill>
+        <skill>ROI modeling</skill>
+        <skill>Asset discovery</skill>
+        <skill>Migration planning</skill>
+        <skill>Contract negotiation</skill>
+      </skills>
+      <technologies>
+        <tech>Stratozone</tech>
+        <tech>CloudPhysics</tech>
+        <tech>Velostrata</tech>
+        <tech>Google Cloud Migration Center</tech>
+      </technologies>
+    </domain>
+
+    <domain id="sales-enablement" tier="2" years="7+">
+      <name>Sales Enablement</name>
+      <skills>
+        <skill>Training content development</skill>
+        <skill>Sales methodology</skill>
+        <skill>Competitive intelligence</skill>
+        <skill>Industry enablement</skill>
+        <skill>Course design</skill>
+      </skills>
+      <technologies>
+        <tech>Intellum LMS</tech>
+        <tech>Adobe Premiere</tech>
+        <tech>WaveNet</tech>
+        <tech>WellSaid Labs</tech>
+      </technologies>
+    </domain>
+
+    <domain id="business-development" tier="2" years="10+">
+      <name>Business Development</name>
+      <skills>
+        <skill>C-level engagement</skill>
+        <skill>Partnership structuring</skill>
+        <skill>Deal negotiation</skill>
+        <skill>Consultative selling</skill>
+        <skill>Executive relationship building</skill>
+        <skill>Pre-sales</skill>
+      </skills>
+      <technologies>
+        <tech>CRM systems</tech>
+        <tech>Proposal tools</tech>
+      </technologies>
+    </domain>
+
+    <!-- Tier 3: Working Expertise (2-5 years) -->
+    <domain id="six-sigma" tier="3" years="3+">
+      <name>Six Sigma / Process Engineering</name>
+      <skills>
+        <skill>Process improvement</skill>
+        <skill>Root cause analysis</skill>
+        <skill>Control plans</skill>
+        <skill>Value stream analysis</skill>
+        <skill>Data-driven decision making</skill>
+      </skills>
+      <technologies>
+        <tech>Statistical analysis tools</tech>
+        <tech>Process mapping tools</tech>
+      </technologies>
+    </domain>
+
+    <domain id="competitive-intelligence" tier="3" years="3+">
+      <name>Competitive Intelligence</name>
+      <skills>
+        <skill>Competitive analysis</skill>
+        <skill>Market research</skill>
+        <skill>Positioning strategy</skill>
+        <skill>Battle cards</skill>
+      </skills>
+      <technologies>
+        <tech>Research tools</tech>
+        <tech>NLP analysis</tech>
+      </technologies>
+    </domain>
+
+    <domain id="martech-loyalty" tier="3" years="2+">
+      <name>MarTech / Loyalty</name>
+      <skills>
+        <skill>Loyalty program architecture</skill>
+        <skill>Subscription systems</skill>
+        <skill>Partner integrations</skill>
+        <skill>Account linking</skill>
+      </skills>
+      <technologies>
+        <tech>mParticle</tech>
+        <tech>Braze</tech>
+        <tech>SessionM</tech>
+        <tech>Dynamic Yield</tech>
+      </technologies>
+    </domain>
+
+    <domain id="software-development" tier="3" years="10+">
+      <name>Software Development</name>
+      <skills>
+        <skill>Full-stack development</skill>
+        <skill>API design</skill>
+        <skill>Application architecture</skill>
+        <skill>Code optimization</skill>
+      </skills>
+      <technologies>
+        <tech>Python</tech>
+        <tech>C#</tech>
+        <tech>React</tech>
+        <tech>Next.js</tech>
+        <tech>Firebase</tech>
+        <tech>Visual Basic .NET</tech>
+      </technologies>
+    </domain>
+  </expertise>
+
+  <!-- POSITIONS: Chronological with nested initiatives and STAR activities -->
+  <positions>
+
+    <!-- MCDONALD'S CORPORATION -->
+    <position id="mcd-2024" type="current">
+      <company>McDonald's Corporation</company>
+      <title>Principal AI Architect (Generative AI)</title>
+      <level>Director-equivalent</level>
+      <location>Chicago, IL</location>
+      <dates start="2024-03" end="present"/>
+      <reporting>Reports to Senior Director (Chief Architect) with dotted line to VP</reporting>
+
+      <initiatives>
+        <initiative id="mcd-ai-platform">
+          <name>AI Platform Architecture</name>
+          <activities>
+            <activity id="mcd-2024-10layer" type="strategic">
+              <situation>McDonald's lacked a comprehensive enterprise AI architecture to guide technology investments across 40,000+ restaurant locations globally, consumer platforms, and internal business functions. Multiple teams were building AI solutions without unified patterns or governance.</situation>
+              <task>Design and document target state architecture for enterprise AI platform on Google Cloud Platform covering all layers from user interface to governance.</task>
+              <action>Designed comprehensive 10-layer architecture covering Interface, Agent Orchestration, Agent Runtime, Tools and Functions, Models, Knowledge and Data, MLOps/AIOps, Infrastructure, AI Developer Experience, and Governance. Defined three-platform model (Restaurant, Consumer, Company) with distinct requirements. Made key architectural decisions including A2A protocol for agent communication, MCP for tool integration, Confluent Kafka for event streaming, and multi-model strategy to avoid vendor lock-in.</action>
+              <result>Delivered complete 10-layer target state AI platform architecture. Created 45+ standardized architecture artifacts. Established architectural foundation for all AI initiatives across the enterprise. Architecture adopted as organizational standard for AI development.</result>
+              <tags>
+                <domain ref="enterprise-architecture">
+                  <skill>Target state architecture</skill>
+                  <skill>Architecture operating model</skill>
+                  <technology>TOGAF</technology>
+                </domain>
+                <domain ref="ai-ml">
+                  <skill>AI platform architecture</skill>
+                  <skill>Multi-agent systems</skill>
+                  <technology>A2A Protocol</technology>
+                  <technology>MCP</technology>
+                  <technology>Gemini</technology>
+                </domain>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                  <skill>Edge computing</skill>
+                  <technology>Google Cloud Platform</technology>
+                  <technology>Kubernetes</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="mcd-2024-agents" type="technical">
+              <situation>Architecture team needed tools to automate reviews, provide decision support, and accelerate research across complex enterprise systems. Manual processes were time-consuming and inconsistent.</situation>
+              <task>Develop AI-powered agents to automate architecture tasks and provide analytical insights for the architecture team.</task>
+              <action>Developed 5 specialized AI agents: GenAI Architecture Assistant for reviewing AI architectures with compliance and readiness scoring; Decision Advisor for strategic decision support with adversarial analysis; Current State Researcher for exhaustive Confluence search and baseline reports; Business Architecture Modeler for capability modeling using BIZBOK and TOGAF; Global Program Management Agent for executive insights on critical projects.</action>
+              <result>Deployed 5 AI agents supporting architecture team productivity. Agents now provide automated architecture reviews, strategic decision support, research synthesis, and program status reporting. Reduced manual effort for architecture assessments by enabling consistent, repeatable analysis.</result>
+              <tags>
+                <domain ref="ai-ml">
+                  <skill>Multi-agent systems</skill>
+                  <skill>RAG pipelines</skill>
+                  <skill>Prompt engineering</skill>
+                  <technology>Gemini</technology>
+                  <technology>Claude</technology>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Architecture governance</skill>
+                  <skill>Capability modeling</skill>
+                  <technology>BIZBOK</technology>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="mcd-ai-strategy">
+          <name>Business Function AI Strategy</name>
+          <activities>
+            <activity id="mcd-2024-usecases" type="strategic">
+              <situation>McDonald's business strategy team was developing enterprise AI strategy but lacked comprehensive view of AI opportunities across 8 global business functions. No systematic analysis existed to identify where AI could provide business value.</situation>
+              <task>Lead technology strategy portion of enterprise AI strategy. Research AI opportunities across all business functions and identify reusable architecture patterns.</task>
+              <action>Researched and authored 10 AI megatrend papers using AI-assisted synthesis covering Global Impact, Global Tech, EDAA, Finance, IS&amp;P, Legal, Supply Chain, and People functions, plus executive and technical summary reports. Analyzed each business function to identify AI use cases. Mapped use cases to value streams and assessed buy vs. build decisions. Collaborated with AI Engineering and Legal teams to ensure alignment.</action>
+              <result>Identified 325 AI use cases across 8 business functions. Defined 22 reusable architecture patterns. Delivered 10 megatrend papers informing enterprise AI strategy. Currently mapping use cases to value streams for prioritization and business value assessment.</result>
+              <tags>
+                <domain ref="ai-ml">
+                  <skill>Use case analysis</skill>
+                  <skill>AI governance</skill>
+                  <technology>Gemini</technology>
+                  <technology>Claude</technology>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Value stream mapping</skill>
+                  <skill>Capability modeling</skill>
+                  <technology>BIZBOK</technology>
+                </domain>
+                <domain ref="technology-evangelism">
+                  <skill>Thought leadership</skill>
+                  <skill>Content development</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="mcd-operating-model">
+          <name>Architecture Operating Model</name>
+          <activities>
+            <activity id="mcd-2024-opmodel" type="strategic">
+              <situation>Following company reorganization, McDonald's architecture function lacked standardized operating model. No consistent framework existed for architecture services, artifacts, or roles across Solution, Business, Enterprise, Data, and AI architecture domains.</situation>
+              <task>Establish comprehensive architecture operating model to standardize practices across the organization.</task>
+              <action>Applied Six Sigma SIPOC methodology, SCAMPI/A assessment framework, BIZBOK, and TOGAF to develop comprehensive operating model. Defined 9 core services, standardized approximately 45 artifacts, documented 12 architecture services, and defined 14 architect roles. Mapped 40 value streams to architecture capabilities.</action>
+              <result>Established architecture operating model covering 5 domains (Solution, Business, Enterprise, Data, AI). Created 9 core services, 45 standardized artifacts, 14 architect role definitions, and 12 documented architecture services. Mapped 40 value streams. Operating model adopted across architecture organization.</result>
+              <tags>
+                <domain ref="enterprise-architecture">
+                  <skill>Architecture operating model</skill>
+                  <skill>Value stream mapping</skill>
+                  <technology>TOGAF</technology>
+                  <technology>BIZBOK</technology>
+                  <technology>SIPOC</technology>
+                </domain>
+                <domain ref="six-sigma">
+                  <skill>Process improvement</skill>
+                  <skill>Value stream analysis</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="mcd-martech">
+          <name>MarTech Domain Architecture</name>
+          <activities>
+            <activity id="mcd-2024-amazon" type="strategic">
+              <situation>McDonald's pursued strategic loyalty partnership with Amazon requiring secure account linking between platforms. No existing architecture pattern existed for loyalty-linked partnerships of this scale.</situation>
+              <task>Develop enterprise architecture strategy for Amazon loyalty partnership including account linking, value streams, and cross-platform integration patterns.</task>
+              <action>Developed overall EA strategy for partnership. Built value streams for loyalty linking. Conducted capability analysis. Co-designed WebView approach for secure account linking. Created high-level enterprise and conceptual architecture diagrams. Developed account linking sequence diagrams. Defined earn/burn patterns for cross-platform loyalty integration.</action>
+              <result>Delivered enterprise architecture strategy for Amazon loyalty partnership. Created secure WebView account linking architecture. Defined value streams and capability models for loyalty linking. Established earn/burn integration patterns adopted for partnership implementation.</result>
+              <tags>
+                <domain ref="martech-loyalty">
+                  <skill>Loyalty program architecture</skill>
+                  <skill>Account linking</skill>
+                  <skill>Partner integrations</skill>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Capability modeling</skill>
+                  <skill>Value stream mapping</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="mcd-2024-subscription" type="strategic">
+              <situation>McDonald's exploring subscription service strategy but lacked clarity on how subscriptions would integrate with existing MarTech stack and what vendor capabilities were needed.</situation>
+              <task>Assess subscription service feasibility and define integration requirements with existing MarTech ecosystem.</task>
+              <action>Mapped subscription requirements to existing MarTech stack including mParticle, Braze, SessionM, and Dynamic Yield. Identified comprehensive functional and non-functional requirements. Assessed 5 vendors in subscription payment domain. Led SME collaboration on 25 subscription constructs identified by McKinsey feasibility analysis.</action>
+              <result>Delivered subscription service feasibility analysis. Mapped integration requirements to existing MarTech stack. Assessed 5 subscription payment vendors. Analyzed 25 subscription constructs for technical feasibility. Provided recommendations for subscription strategy implementation.</result>
+              <tags>
+                <domain ref="martech-loyalty">
+                  <skill>Subscription systems</skill>
+                  <skill>Partner integrations</skill>
+                  <technology>mParticle</technology>
+                  <technology>Braze</technology>
+                  <technology>SessionM</technology>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Vendor assessment</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="mcd-gcp-champs">
+          <name>GCP Champs Training Program</name>
+          <activities>
+            <activity id="mcd-2024-gcpchamps" type="leadership">
+              <situation>McDonald's migrating enterprise systems to Google Cloud Platform but workforce lacked GCP skills. Need existed for structured training program to accelerate adoption and upskill employees.</situation>
+              <task>Design and support implementation of cloud training program to accelerate GCP adoption and workforce upskilling.</task>
+              <action>Designed comprehensive GCP training program structure. Coordinated with Google Cloud for certification paths. Supported program implementation including enrollment, coursework tracking, and certification preparation. Monitored participation and completion metrics.</action>
+              <result>Program enrolled 154 direct participants achieving 100 certifications. Generated 2X pull-through effect with 166 additional employees participating. Participants completed 732 courses (7X completion rate vs. baseline) and passed 2,249 labs (6X increase). Program praised by CIO who sought to integrate into broader Tech Academy initiative for Global IT.</result>
+              <tags>
+                <domain ref="program-management">
+                  <skill>Training program design</skill>
+                  <skill>Cross-functional leadership</skill>
+                </domain>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                  <technology>Google Cloud Platform</technology>
+                </domain>
+                <domain ref="sales-enablement">
+                  <skill>Training content development</skill>
+                  <skill>Course design</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- PRINCIPIO GROUP (CURRENT) -->
+    <position id="principio-2023" type="concurrent">
+      <company>Principio Group</company>
+      <title>Founder &amp; Principal</title>
+      <level>Principal</level>
+      <location>Chicago, IL</location>
+      <dates start="2023-04" end="present"/>
+
+      <initiatives>
+        <initiative id="principio-waivepath">
+          <name>WaivePath Sales Enablement Platform</name>
+          <activities>
+            <activity id="principio-2023-waivepath" type="technical">
+              <situation>Sales professionals lacked resources to learn prompt engineering and apply AI to sales best practices. Partners from Google Cloud wanted to create SaaS solution leveraging generative AI opportunity.</situation>
+              <task>Lead product development and engineering for sales enablement platform as 1/3 equity partner.</task>
+              <action>Architected and developed full-stack platform using React/Next.js frontend, Firebase backend (Functions, Auth, Storage, Firestore), Google Cloud Run for compute, and Stripe for payments. Built multi-agent content production system with 8 specialized AI agents using Claude and Gemini. Created 50+ sales best practice articles, 50+ podcasts, 50-60 AI prompt templates, and physical flashcard deck. Implemented hybrid parallel/sequential agent orchestration pattern.</action>
+              <result>Launched platform approximately 1 year ago. Delivered 50+ articles, 50+ podcasts, 50-60 prompts, and physical product. Built 8-agent content production system. Platform live but with limited traction due to targeting wrong segment (salespeople vs. sales enablement professionals).</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Full-stack development</skill>
+                  <skill>API design</skill>
+                  <technology>React</technology>
+                  <technology>Next.js</technology>
+                  <technology>Firebase</technology>
+                  <technology>Cloud Run</technology>
+                </domain>
+                <domain ref="ai-ml">
+                  <skill>Multi-agent systems</skill>
+                  <skill>Prompt engineering</skill>
+                  <technology>Claude</technology>
+                  <technology>Gemini</technology>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="principio-agentient">
+          <name>Agentient AI Co-Founder Platform</name>
+          <activities>
+            <activity id="principio-2024-agentient" type="strategic">
+              <situation>Startup founders and innovation teams lack AI-powered tools that provide compounding intelligence throughout product development lifecycle. Most AI tools are point solutions without persistent context.</situation>
+              <task>Design and develop AI-first B2B SaaS platform providing AI co-pilot capabilities for startups with connected workflow from ideation to launch.</task>
+              <action>Designed 7-module product suite (Spark, Flow, Prism, Vantage, Foundry, Ignite, Academy) covering ideation, prompt management, research, value engineering, requirements, GTM, and training. Architected technical stack using React/Next.js, Firebase, Cloud Run, Agent Development Kit, RAG Engine, and semantic search. Conducted market validation through secondary research and startup founder interviews. Adopted MVP release approach based on WaivePath learnings.</action>
+              <result>Designed complete 7-module product architecture. Flow module in beta. Technical architecture defined for full-stack AI platform on GCP. Validated market through founder interviews. Potential consulting pivot with Vantage module for AI adoption business cases. Platform under active development with 100% ownership.</result>
+              <tags>
+                <domain ref="ai-ml">
+                  <skill>AI platform architecture</skill>
+                  <skill>Multi-agent systems</skill>
+                  <skill>RAG pipelines</skill>
+                  <technology>Agent Development Kit</technology>
+                  <technology>Claude</technology>
+                  <technology>Gemini</technology>
+                </domain>
+                <domain ref="software-development">
+                  <skill>Full-stack development</skill>
+                  <skill>Application architecture</skill>
+                  <technology>React</technology>
+                  <technology>Next.js</technology>
+                  <technology>Firebase</technology>
+                </domain>
+                <domain ref="value-engineering">
+                  <skill>Business case development</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- GOOGLE CLOUD -->
+    <position id="google-2021" type="previous">
+      <company>Google Cloud</company>
+      <title>Principal Program Manager</title>
+      <level>Senior Individual Contributor</level>
+      <location>Chicago, IL (Remote)</location>
+      <dates start="2019-12" end="2023-03"/>
+
+      <initiatives>
+        <initiative id="google-industry-ba">
+          <name>Industry Business Architecture Program</name>
+          <activities>
+            <activity id="google-2021-iba-program" type="leadership">
+              <situation>Digital transformation increasingly owned by business leaders rather than IT. Google Cloud sales teams lacked industry knowledge to engage business executives. No unified methodology existed across previously siloed enablement teams.</situation>
+              <task>Build and manage largest cross-functional program of career to develop industry business architecture content enabling sales teams to engage business executives.</task>
+              <action>Managed program with 88 contributors across 10 workstream teams and 3 cross-functional teams covering 12 industries. Engaged Accenture for 3-month consulting to develop initial bill-of-materials for 6 industries including trends, value chains, capability maps, metrics, maturity models, and data models. Created internal website to surface content. Launched at global sales conference and recruited volunteers. Partnered with Distinguished Engineer for executive sponsorship. Added McKinsey persona research and expanded to 12 industries. Developed unified engagement model based on design thinking. Launched 20% project to recruit Technical Program Managers.</action>
+              <result>Delivered comprehensive business architecture content for 12 industries with 6 reference use cases. Managed 88 contributors without direct authority using granular tasks, two-week sprints, and peer recognition. Doubled traffic to industry enablement content. Program became basis for Principal Architect Level 300 accreditation. Unified methodology adopted across previously siloed teams.</result>
+              <tags>
+                <domain ref="program-management">
+                  <skill>Cross-functional leadership</skill>
+                  <skill>Stakeholder management</skill>
+                  <skill>Global program execution</skill>
+                  <skill>Volunteer coordination</skill>
+                  <skill>Methodology development</skill>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Capability modeling</skill>
+                  <skill>Value stream mapping</skill>
+                </domain>
+                <domain ref="sales-enablement">
+                  <skill>Industry enablement</skill>
+                  <skill>Training content development</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="google-enablement">
+          <name>Industry Enablement and Content Production</name>
+          <activities>
+            <activity id="google-2020-ai-content" type="technical">
+              <situation>SME resources for content production were scarce and content quickly became stale. Course production took 6-8 weeks requiring significant SME time. JWCC contract required 11 courses in 2 months over holiday period.</situation>
+              <task>Develop innovative content production pipeline to address SME scarcity and reduce course development time.</task>
+              <action>Developed AI-powered content pipeline: source content transcription via Adobe Premiere speech-to-text, narrative synthesis via ChatGPT/Bard, manual accuracy editing, text-to-speech voiceover via WaveNet/WellSaid Labs, audio remastering via Adobe Audition, final video production via Adobe Premiere, modular course deployment to Intellum LMS. Applied pipeline to JWCC contract requirements and public sector enablement.</action>
+              <result>Reduced course production time from 6-8 weeks to less than 1 week (85% reduction). Reduced SME time from days to hours (90% reduction). Successfully delivered 11 JWCC courses in 2 months. Put in charge of entire public sector enablement program. Content easily updated when products changed.</result>
+              <tags>
+                <domain ref="ai-ml">
+                  <skill>Prompt engineering</skill>
+                  <technology>ChatGPT</technology>
+                  <technology>Bard</technology>
+                </domain>
+                <domain ref="sales-enablement">
+                  <skill>Training content development</skill>
+                  <skill>Course design</skill>
+                  <technology>Intellum LMS</technology>
+                  <technology>WaveNet</technology>
+                  <technology>WellSaid Labs</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="google-2020-standards" type="strategic">
+              <situation>Enablement organization lacked SME resources for content production. No standardization existed in document artifacts and training content. Teams engaged reactively with last-minute requests creating inefficiencies and redundancies.</situation>
+              <task>Develop standardization framework for enablement content to improve efficiency and consistency.</task>
+              <action>Developed 4-tier standards model reflecting level of enablement detail required. Created 5 standardized document templates and 6 detailed sales and technical course outlines. Built AppSheet tracking app to manage and track artifact status. Applied Bloom's taxonomy for learning objectives, sales cycle stage alignment, and learner retention assessment guidance.</action>
+              <result>Standards adopted across enablement teams and integrated into GTM process for product launches. Shifted SME engagement from reactive to proactive. Reduced content pipeline inefficiencies. Improved upstream and downstream stakeholder satisfaction.</result>
+              <tags>
+                <domain ref="sales-enablement">
+                  <skill>Training content development</skill>
+                  <skill>Course design</skill>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Methodology development</skill>
+                  <technology>AppSheet</technology>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+
+        <initiative id="google-competitive">
+          <name>Competitive Intelligence</name>
+          <activities>
+            <activity id="google-2019-competitive" type="technical">
+              <situation>Served as bridge role after Value Engineering transition. Sales teams needed competitive positioning against Azure and AWS. Leadership needed competitive analysis for executive communications.</situation>
+              <task>Research, analyze, and document competitive insights. Train Googlers and partners on competitive positioning.</task>
+              <action>Authored AWS re:Invent 2019 synopsis for global sales force. Prepared Goldman Sachs survey response for CEO Thomas Kurian and senior leaders. Created and presented Azure compute training at global sales conference. Led and mentored UIUC postgraduate students on competitive analysis AI model using NER, relationship extraction, sentiment analysis, and summarization.</action>
+              <result>Delivered AWS re:Invent analysis to global sales force. Contributed to CEO investor communications. Trained 500+ attendees on Azure compute competitive positioning with 4.6 average rating. Mentored university students on AI-powered competitive analysis.</result>
+              <tags>
+                <domain ref="competitive-intelligence">
+                  <skill>Competitive analysis</skill>
+                  <skill>Market research</skill>
+                  <skill>Positioning strategy</skill>
+                </domain>
+                <domain ref="ai-ml">
+                  <technology>NLP analysis</technology>
+                </domain>
+                <domain ref="technology-evangelism">
+                  <skill>Public speaking</skill>
+                  <skill>Executive presentations</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <position id="google-2018" type="previous">
+      <company>Google Cloud</company>
+      <title>Head of Value Engineering</title>
+      <level>Manager</level>
+      <location>Chicago, IL</location>
+      <dates start="2018-01" end="2019-11"/>
+
+      <initiatives>
+        <initiative id="google-value-eng">
+          <name>Global Value Engineering Program</name>
+          <activities>
+            <activity id="google-2018-pipeline" type="strategic">
+              <situation>Google Cloud Value Engineering was nascent function approximately 18 months old with approximately $150M in assessed business through Stratozone partnership. Function needed to scale to support Google Cloud growth. Multiple fragmented initiatives existed across organization including CloudPhysics and Velostrata without unified strategy.</situation>
+              <task>Develop, execute, and scale global value engineering strategy. Consolidate fragmented migration initiatives into cohesive program.</task>
+              <action>Built comprehensive Global Assessment and Planning Program by consolidating Stratozone (TCO assessment), CloudPhysics (asset discovery), and Velostrata (VM migration) into end-to-end solution. Renegotiated Stratozone contract to secure additional capabilities at no cost by demonstrating 10X scale opportunity. Reinvested savings into global sales enablement tour covering 20 cities across Europe, North America, and Asia. Trained approximately one-third of global sales force on assessment and planning tools.</action>
+              <result>Generated $1.5B in pipeline within 9 months representing 10X growth from $150M baseline. Improved forecast accuracy by 60%. Reduced sales cycle by 70%. Increased win rate for VM migration by 5%. Created end-to-end migration program from discovery to execution.</result>
+              <tags>
+                <domain ref="value-engineering">
+                  <skill>TCO analysis</skill>
+                  <skill>Business case development</skill>
+                  <skill>Asset discovery</skill>
+                  <skill>Migration planning</skill>
+                  <skill>Contract negotiation</skill>
+                  <technology>Stratozone</technology>
+                  <technology>CloudPhysics</technology>
+                  <technology>Velostrata</technology>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Global program execution</skill>
+                  <skill>Cross-functional leadership</skill>
+                </domain>
+                <domain ref="sales-enablement">
+                  <skill>Training content development</skill>
+                  <skill>Sales methodology</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="google-2018-stratozone" type="strategic">
+              <situation>Google Cloud Engineering did not want to develop discovery/assessment capabilities internally. Group Product Manager for Compute wanted tooling to support VM migrations and supplement Velostrata. Acquisition was preferred path over internal development.</situation>
+              <task>Provide subject matter expert consultation on acquisition targets and participate in due diligence and negotiations.</task>
+              <action>Served as SME for GPM evaluating acquisition options including CloudPhysics and Stratozone. Conducted analysis and due diligence on multiple partners. Recommended Stratozone as most capable platform with breadth for enterprise needs. Actively participated in meetings and negotiations with Stratozone leadership. Maintained strong relationship with Stratozone CEO throughout process.</action>
+              <result>Stratozone acquired by Google Cloud in 2020 based on recommendation and due diligence. Product rolled into Google Cloud Platform and became Google Cloud Migration Center. Created seamless discovery to migration solution through Stratozone-Velostrata integration.</result>
+              <tags>
+                <domain ref="value-engineering">
+                  <skill>Business case development</skill>
+                  <technology>Stratozone</technology>
+                  <technology>Google Cloud Migration Center</technology>
+                </domain>
+                <domain ref="business-development">
+                  <skill>Partnership structuring</skill>
+                  <skill>Deal negotiation</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="google-2018-accounts" type="tactical">
+              <situation>Strategic accounts needed value engineering support for cloud business cases. Deals required ROI justification and technical validation.</situation>
+              <task>Provide direct deal support for strategic accounts developing business cases for cloud adoption.</task>
+              <action>Supported Walmart with business case for TPUs for real-time recommendations on Walmart.com. Worked with Pandora on data analysis initiative for song recommendation optimization. Assisted Broadcom with defect rate reduction analysis for microchip testing. Developed Equifax business value case for cloud security.</action>
+              <result>Delivered business cases for strategic accounts including Walmart TPU recommendation engine, Pandora song recommendations, Broadcom defect analysis, and Equifax cloud security. Supported deal progression with quantified ROI analysis.</result>
+              <tags>
+                <domain ref="value-engineering">
+                  <skill>TCO analysis</skill>
+                  <skill>Business case development</skill>
+                  <skill>ROI modeling</skill>
+                </domain>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                  <skill>Consultative selling</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <position id="google-2016" type="previous">
+      <company>Google Cloud</company>
+      <title>Principal Strategic Advisor</title>
+      <level>Senior Individual Contributor</level>
+      <location>Chicago, IL</location>
+      <dates start="2016-03" end="2017-12"/>
+
+      <initiatives>
+        <initiative id="google-security">
+          <name>Enterprise Security Evangelism</name>
+          <activities>
+            <activity id="google-2016-security" type="leadership">
+              <situation>Google Cloud was nascent organization and new entrant in enterprise field. Primary challenge was establishing enterprise credibility with Fortune 500 customers accustomed to Microsoft and AWS. Enterprise security and compliance were key concerns blocking adoption.</situation>
+              <task>Support sales teams by conveying technical capabilities to C-level executives. Develop and deliver enterprise security and compliance messaging.</task>
+              <action>Became de-facto security SME creating reusable security messaging for sales teams. Co-developed and presented workshop with product/engineering for hand-selected customer engineers globally establishing first security specialist team. Presented at RSA Conference, Advisen Risk Management Conference, and Rackspace conference. Supported key accounts including PayPal, Capital One, HSBC, Target, Best Buy, and Kohl's with security briefings.</action>
+              <result>Established enterprise security credibility for Google Cloud in Central Region. Created first security specialist team through global customer engineer workshop. Developed reusable security messaging adopted by sales organization. Earned Google Cloud Architect certification. Published Fast Magazine article on AI, IoT, and productivity integration.</result>
+              <tags>
+                <domain ref="technology-evangelism">
+                  <skill>Executive presentations</skill>
+                  <skill>Technical storytelling</skill>
+                  <skill>Competitive positioning</skill>
+                  <skill>Public speaking</skill>
+                </domain>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud security</skill>
+                  <technology>Google Cloud Platform</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="google-2016-highland" type="technical">
+              <situation>Highland Technologies (trading firm) processed algorithmic trades consuming approximately 120,000 cores on GCP. Failures appeared that were difficult to trace. Concurrent incident: SnapChat (major client) experienced outage. SREs discovered Cloud Front-end Service was being flooded by Highland's workload pattern.</situation>
+              <task>Investigate root cause of infrastructure constraints affecting two key customers and develop resolution strategy.</task>
+              <action>Gained access to internal behind-the-scenes infrastructure tools through SREs. Discovered Cloud Front-end Service being flooded. Met with client to determine root cause: incredibly small job sizes each writing outputs to files read by next job creating massive I/O from thousands of simultaneous small file operations. Worked with SREs, product team, and engineering leadership. Collaborated with client to redistribute workloads and reduce I/O demands. Managed load while waiting for hardware expansion.</action>
+              <result>Identified root cause as job design pattern flooding Cloud Front-end Service. Developed workload redistribution design with client. Short-term: managed load while waiting for hardware. Long-term: new hardware assembled and deployed. Unexpected win: redistributed design proved better than client's original architecture and was retained even after capacity available.</result>
+              <tags>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                  <technology>Google Cloud Platform</technology>
+                </domain>
+                <domain ref="technology-evangelism">
+                  <skill>Technical storytelling</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="google-2016-kohls" type="strategic">
+              <situation>Kohl's was largest Central Region customer seeking to modernize technology stack including mobile backend, catalog search, and data analytics on Google Cloud.</situation>
+              <task>Coordinate Kohl's adoption of Google Cloud across multiple workstreams including Kubernetes, BigQuery, and DataProc.</task>
+              <action>Coordinated Kubernetes adoption for mobile backend. Supported catalog search migration to GCP. Facilitated Hadoop migration to BigQuery and DataProc for analytics workloads.</action>
+              <result>Supported Kohl's multi-workstream cloud adoption across mobile (Kubernetes), search (GCP), and analytics (BigQuery/DataProc). Established Google Cloud as strategic platform for Kohl's technology modernization.</result>
+              <tags>
+                <domain ref="cloud-platforms">
+                  <skill>Migration strategy</skill>
+                  <technology>Google Cloud Platform</technology>
+                  <technology>Kubernetes</technology>
+                  <technology>BigQuery</technology>
+                </domain>
+                <domain ref="business-development">
+                  <skill>Executive relationship building</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- VERIZON -->
+    <position id="verizon-2015" type="previous">
+      <company>Verizon Enterprise Solutions</company>
+      <title>Principal Client Partner</title>
+      <level>Principal</level>
+      <location>Chicago, IL</location>
+      <dates start="2015-09" end="2016-02"/>
+
+      <initiatives>
+        <initiative id="verizon-cloud">
+          <name>Cloud Services Portfolio</name>
+          <activities>
+            <activity id="verizon-2015-cloud" type="leadership">
+              <situation>Verizon Enterprise Solutions managing $800 million book of business seeking to expand cloud services portfolio. Executive sponsor who recruited team left company weeks after joining leaving organization without leadership or direction.</situation>
+              <task>Serve as member of East Region Management Team focusing on cloud services business development, technology evangelism, customer engagement, and strategy enablement.</task>
+              <action>Joined as Principal Client Partner on East Region Management Team with cloud services portfolio focus. Conducted business development activities for cloud services. Engaged customers on cloud strategy. After 6 months without strategy or clear responsibilities due to sponsor departure, began exploring other opportunities. Discovered Google Cloud role similar to Verizon and Microsoft experience.</action>
+              <result>Brief tenure due to organizational instability when executive sponsor departed. Left after 6 months to join Google Cloud as Principal Strategic Advisor. Key lesson: executive sponsorship is critical for role viability in large organizations.</result>
+              <tags>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                </domain>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- PRINCIPIO GROUP (FIRST) -->
+    <position id="principio-2014" type="previous">
+      <company>Principio Group</company>
+      <title>Founder &amp; Principal</title>
+      <level>Principal</level>
+      <location>Chicago, IL</location>
+      <dates start="2014-12" end="2018-12"/>
+
+      <initiatives>
+        <initiative id="principio-wotcom">
+          <name>WotCom Windows Application</name>
+          <activities>
+            <activity id="principio-2015-wotcom" type="technical">
+              <situation>Gap existed in market for World of Tanks companion app on Windows platform. Microsoft ecosystem had engaged gaming community but no quality companion apps. Financial runway available from successful Microsoft years provided opportunity for entrepreneurship.</situation>
+              <task>Design, develop, and launch Windows companion application for World of Tanks gaming community.</task>
+              <action>Managed 2-person development team in Ukraine with daily morning meetings. Handled product management, testing, and cloud services development. Designed application following Metro UI guidelines. Built cloud backend using Amazon Cognito for auth and Amazon RDS for data. Used Xamarin for cross-platform development with intent to port to iOS and Android. Launched within 3 months. Executed scrappy social media marketing campaign targeting gaming community.</action>
+              <result>Launched in 3 months from start to first version. Achieved Top 10 ranking in lifestyle category in 4 countries. Reached Top 200 in major markets including US, UK, France, Germany, and Australia. Scaled back to single developer for maintenance in September 2015 when user engagement insufficient. Closed business December 2018. Key learnings: platform selection matters, engagement trumps vanity metrics, cash runway critical for consumer apps.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                  <technology>Xamarin</technology>
+                </domain>
+                <domain ref="cloud-platforms">
+                  <technology>Amazon Cognito</technology>
+                  <technology>Amazon RDS</technology>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Cross-functional leadership</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- MICROSOFT -->
+    <position id="microsoft-2012" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Senior Business Development Manager</title>
+      <level>Senior Individual Contributor</level>
+      <location>Chicago, IL</location>
+      <dates start="2012" end="2014-11"/>
+
+      <initiatives>
+        <initiative id="microsoft-partnerships">
+          <name>Strategic Enterprise Partnerships</name>
+          <activities>
+            <activity id="microsoft-2013-investment" type="strategic">
+              <situation>Microsoft investing heavily to secure marquee apps for Windows Store. Product groups had priority account lists and significant investment budgets. Role required structuring deals incorporating multiple Microsoft technologies.</situation>
+              <task>Secure strategic partnership deals with high-profile enterprise accounts through internal investment and cross-team collaboration.</task>
+              <action>Built business cases for internal investment from Windows and Windows Phone product groups. Structured multi-technology deals incorporating Windows Phone, Windows 8, Xbox, Azure, and Advertising. Navigated internal funding processes with effectively 100% success rate for priority accounts. Applied "One Microsoft" approach working across Advertising, Devices, and Retail teams.</action>
+              <result>Raised $2.5M of internal investment from various business groups and programs for strategic partnership deals in 2013-2014. Recognized as one of few "whale hunters" given largest brands to work with. Developed strong relationships with Corporate VP through multiple strategic meetings.</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>Partnership structuring</skill>
+                  <skill>Deal negotiation</skill>
+                  <skill>C-level engagement</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="microsoft-2013-walmart" type="strategic">
+              <situation>Predecessor unable to secure Walmart platform partnership in 3+ years. Walmart relationship strained after Windows 8 holiday sales disappointed. Microsoft Retail team under immense pressure for better next holiday season.</situation>
+              <task>Break through to secure Walmart platform partnership using beachhead strategy and cross-Microsoft collaboration.</task>
+              <action>Targeted VUDU (Walmart's video streaming) as beachhead bringing Xbox app to market. Began Azure discussion for video processing. Applied "One Microsoft" approach coordinating Retail team (seeking holiday ideas), Advertising (seeking retail partnerships), and Xbox (VUDU relationship). Organized major meeting at Microsoft headquarters with Walmart Chief Merchandising Officer. Proposed Walmart app pre-installed on all Windows devices sold through Walmart. Shared Walgreens photo business win as proof point. Secured $500K funding for app development. Hired development partner to build Windows Phone and Windows 8 apps.</action>
+              <result>Secured broader partnership beyond single app encompassing Xbox/VUDU, advertising exploration, and retail device strategy. Delivered Windows Phone and Windows 8 apps. In post-holiday debrief, Walmart leadership called out app workstream as highlight of Microsoft partnership for the year.</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>Partnership structuring</skill>
+                  <skill>C-level engagement</skill>
+                  <skill>Consultative selling</skill>
+                </domain>
+                <domain ref="cloud-platforms">
+                  <technology>Microsoft Azure</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="microsoft-2012-scripps" type="strategic">
+              <situation>Scripps Networks owned valuable brands including HGTV, Food Network, DIY Network, and Travel Channel. Windows 8 launch approaching with need for major showcase applications. Brand managers had authority over app decisions.</situation>
+              <task>Secure Scripps Networks brands for Windows Phone, Windows 8, and Xbox platforms.</task>
+              <action>Secured speaking slot at executive briefing. Met with COO Mark Hale who was supportive but deferred to brand managers. COO arranged meeting with CEO Ken Lowe at CES Las Vegas. Secured CEO support for Food Network app on Windows/Windows Phone. Faced timeline pressure with only few months to deliver and insufficient developer resources. Personally wrote much of Windows 8 application in C# with Windows libraries alongside technical evangelist colleague. Learned new Windows Runtime (WinRT) platform while delivering under deadline.</action>
+              <result>Food Network app became one of five major showcase applications for Windows 8 launch. Delivered under timeline pressure by personally coding significant portion of application. Demonstrated ability to combine business development with technical delivery.</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                  <skill>Executive relationship building</skill>
+                </domain>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                  <technology>C#</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="microsoft-2012-walgreens" type="tactical">
+              <situation>Walgreens seeking to drive mobile photo printing service adoption. Partnership opportunity existed for Windows ecosystem integration.</situation>
+              <task>Structure Walgreens partnership for photo printing integration across Windows ecosystem.</task>
+              <action>Developed partnership structure incorporating Windows Phone app with photo printing capability, API exposure for other developers to integrate, and OneDrive integration for direct photo printing from cloud storage.</action>
+              <result>Delivered successful Walgreens partnership with Windows Phone app, developer API, and OneDrive integration. Used as proof point for subsequent Walmart discussions. Attempted to replicate model with Walmart Photo Labs.</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>Partnership structuring</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <position id="microsoft-2008" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Senior Platform Strategy Advisor</title>
+      <level>Senior Individual Contributor</level>
+      <location>Chicago, IL</location>
+      <dates start="2008-02" end="2012"/>
+
+      <initiatives>
+        <initiative id="microsoft-cloud">
+          <name>Cloud Strategy and Enterprise Evangelism</name>
+          <activities>
+            <activity id="microsoft-2009-aon" type="strategic">
+              <situation>AON CTO organization invited both Microsoft and Google to present on moving software to the cloud. Microsoft transitioning to cloud with "Software + Services" strategy and first major product BPOS (later Office 365).</situation>
+              <task>Win competitive engagement against Google by articulating Microsoft cloud strategy addressing enterprise security, confidentiality, and compliance concerns.</task>
+              <action>Developed and presented Microsoft cloud migration strategy emphasizing gradual migration path while protecting security, confidentiality, and compliance. Positioned against Google's approach which failed to address enterprise concerns.</action>
+              <result>Won competitive engagement against Google. AON became one of first major customers in Central Region to adopt BPOS. Invited to present at AON's global CTO conference in Rotterdam on cloud migration strategy. Asked by multiple Microsoft account teams to present on how to win BPOS deals against Google.</result>
+              <tags>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                  <skill>Migration strategy</skill>
+                  <skill>Cloud security</skill>
+                  <technology>Microsoft Azure</technology>
+                </domain>
+                <domain ref="technology-evangelism">
+                  <skill>Competitive positioning</skill>
+                  <skill>Executive presentations</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="microsoft-2010-tribune-azure" type="strategic">
+              <situation>Tribune Media Company sales team struggling to negotiate contract renewal. EVP and CIO Steve Gable had "Content Cloud" initiative to centralize content across all media properties and reduce data center footprint.</situation>
+              <task>Strengthen Tribune partnership by identifying strategic technology opportunities beyond contract renewal.</task>
+              <action>Hosted Silverlight workshop with key technical decision makers generating ideas for richer media experiences. Workshop findings forwarded to EVP Steve Gable who invited direct meeting. Learned about Content Cloud initiative. Received confidential disclosure permission to inform Tribune CTO about "Red Dog" (pre-release Azure). Secured pilot deploying Tribune content to pre-release Azure.</action>
+              <result>Secured major Windows Azure deal with significant PR and marketing collateral. Delivered $1.5M annual operational cost reduction through accessible solution across media properties plus consolidated data centers. Created foundation for deeper Tribune relationship.</result>
+              <tags>
+                <domain ref="cloud-platforms">
+                  <skill>Cloud architecture</skill>
+                  <skill>Migration strategy</skill>
+                  <technology>Microsoft Azure</technology>
+                </domain>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                  <skill>Executive relationship building</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="microsoft-2011-tribune-tablet" type="strategic">
+              <situation>Tribune board asking about digital mobile strategy after iPad launch. Steve Gable (CIO promoted to EVP for Tribune Digital) sought mobile strategy guidance. Windows/Windows Phone had less than 1% market share requiring compelling case to bet on Windows.</situation>
+              <task>Develop comprehensive mobile strategy for Tribune properties to position Windows as strategic platform choice.</task>
+              <action>Conducted deep industry research into advertising and distribution business. Gathered key insights and datapoints. Built lightweight prototype showing potential experience. Developed comprehensive vision encompassing all Tribune properties: newspapers, WGN-TV video/audio, LA Times movie/sports data, other Tribune businesses. Strategy so compelling that within one week Steve Gable introduced to Tribune CEO. Presented e-reader strategy to CEO who revealed planned tablet device development.</action>
+              <result>Identified $3.3B opportunity (11M subscribers at $300 BOM for tablet devices). Connected Tribune with Windows product team, OEM/ODM team for hardware, and Microsoft Advertising for ad inventory. Lost Windows tablet deal due to Windows tablet performance but won major Azure deal and advertising partnership. Recognized with Gold Club Nomination (2012), three consecutive Top Contributor Awards, and MGX Best in Class Field Execution (2013).</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                  <skill>Consultative selling</skill>
+                  <skill>Partnership structuring</skill>
+                </domain>
+                <domain ref="technology-evangelism">
+                  <skill>Technical storytelling</skill>
+                  <skill>Thought leadership</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <position id="microsoft-2006" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Architect Evangelist</title>
+      <level>Individual Contributor</level>
+      <location>Chicago, IL</location>
+      <dates start="2006-04" end="2008-02"/>
+
+      <initiatives>
+        <initiative id="microsoft-evangelism">
+          <name>Technology Evangelism and Product Launches</name>
+          <activities>
+            <activity id="microsoft-2007-office" type="tactical">
+              <situation>Office 2007 and Windows Vista launching with need for enterprise showcase demonstrations. Major commodities exchange seeking to modernize investment modeling process.</situation>
+              <task>Promote and drive awareness and adoption of Microsoft new and emerging technologies through enterprise engagements.</task>
+              <action>Integrated investment modeling process into Microsoft Office for major commodities exchange as Office 2007 launch showcase. Executed multi-million dollar Office business application deal with major companies. Supported major enterprise deals with technical evangelism for Office 2007 and Windows Vista launches.</action>
+              <result>Delivered Office 2007 launch showcase integration for major commodities exchange. Executed multi-million dollar Office business application deal. Awarded Circle of Excellence 2008 (team award) for fiscal year performance.</result>
+              <tags>
+                <domain ref="technology-evangelism">
+                  <skill>Technical storytelling</skill>
+                  <skill>Competitive positioning</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- ALLSTATE -->
+    <position id="allstate-2004" type="previous">
+      <company>Allstate Financial</company>
+      <title>Enterprise Architect</title>
+      <level>Individual Contributor</level>
+      <location>Northbrook, IL</location>
+      <dates start="2004-01" end="2006-03"/>
+
+      <initiatives>
+        <initiative id="allstate-ea">
+          <name>Enterprise Architecture and Six Sigma</name>
+          <activities>
+            <activity id="allstate-2005-consolidation" type="strategic">
+              <situation>Allstate Financial undergoing major application modernization. Three core back-office life systems needed consolidation into one. New system experienced major performance problems on critical path threatening project success. Engineer lacked experience with specific technology and IBM support not resolving issue.</situation>
+              <task>Lead one of largest programs in division consolidating life systems. Resolve critical performance issue blocking project success.</task>
+              <action>Led team of application, infrastructure, and data architects deploying enterprise solutions. When performance crisis emerged, escalated to VP responsible for life and annuity systems. Further escalated to IBM management when standard support failed. IBM identified retired engineer in Colorado as expert in specific technology area. Hired expert as contractor for targeted engagement.</action>
+              <result>Within two weeks of expert engagement, issue diagnosed and resolved. Project back on track. Successfully consolidated three life systems into one. Key lesson: when standard support fails, escalate to executive level and find domain experts even through unconventional means.</result>
+              <tags>
+                <domain ref="enterprise-architecture">
+                  <skill>Architecture governance</skill>
+                  <skill>Vendor assessment</skill>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Cross-functional leadership</skill>
+                  <skill>Stakeholder management</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="allstate-2005-sixsigma-ea" type="strategic">
+              <situation>Architecture review board decision-making was slow and lacked transparency. Lack of reuse of existing service-oriented architectures. Criteria for vendor selection ambiguous and left to tenured architects who often lacked integration knowledge. Decisions delayed or rejected without clear justification.</situation>
+              <task>Complete Six Sigma Black Belt project improving enterprise architecture decision-making processes.</task>
+              <action>Reviewed data on review board decisions and outcomes. Reviewed API usage data. Interviewed stakeholders throughout organization. Developed scoring mechanism with assessment criteria across multiple EA views: data, application, development, operations, network, security, integration, and compliance. Created fast-track threshold for solutions scoring above threshold. Developed SOA metrics tracking both development and consumption of reusable assets.</action>
+              <result>Accelerated decision-making with more robust criteria. Replaced ambiguous interpretations with clear, understood criteria. Created metrics for tracking SOA initiative performance. Contributed to Six Sigma Black Belt certification (October 2005).</result>
+              <tags>
+                <domain ref="six-sigma">
+                  <skill>Process improvement</skill>
+                  <skill>Root cause analysis</skill>
+                  <skill>Data-driven decision making</skill>
+                </domain>
+                <domain ref="enterprise-architecture">
+                  <skill>Architecture governance</skill>
+                  <skill>SOA design</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="allstate-2005-sixsigma-policy" type="strategic">
+              <situation>Policy processing SLA was 28 days but actual time was 35 days. Longer processing led to higher rejection rates. Revenue impact significant especially for policies over $500K. Each department had SLA as range with 20% variance leading departments to operate at upper end while individual scorecards showed green but aggregate exceeded threshold.</situation>
+              <task>Complete COO-sponsored Six Sigma Black Belt project reducing policy cycle time.</task>
+              <action>Analyzed policy cycle time data including duration by department, face value, and demographics. Conducted value stream analysis of new business process. Reviewed input/output metrics, issues, roles, and systems at each stage. Identified root cause: SLA structure with ranges allowed departments to operate at upper bounds creating aggregate overrun. Presented findings to COO. Identified low-hanging fruit to reduce cycle time in each department to average. COO instructed department leaders to implement changes. Implemented control plan to monitor improvements.</action>
+              <result>Reduced policy cycle time from 35 days to 28 days (20% improvement). Improved policy acceptance rate by 14%. Completed Six Sigma Black Belt certification (October 2005).</result>
+              <tags>
+                <domain ref="six-sigma">
+                  <skill>Process improvement</skill>
+                  <skill>Root cause analysis</skill>
+                  <skill>Control plans</skill>
+                  <skill>Value stream analysis</skill>
+                </domain>
+                <domain ref="business-development">
+                  <skill>C-level engagement</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- REVERE GROUP -->
+    <position id="revere-2000" type="previous">
+      <company>The Revere Group</company>
+      <title>Managing Consultant / Practice Lead</title>
+      <level>Manager</level>
+      <location>Northbrook, IL</location>
+      <dates start="2000-09" end="2003-12"/>
+
+      <initiatives>
+        <initiative id="revere-consulting">
+          <name>Microsoft Technologies Practice</name>
+          <activities>
+            <activity id="revere-2001-manpower" type="technical">
+              <situation>Assigned to lead front-end development team for large B2B application at Manpower. Complex project with pressing deadlines. Team member's code causing performance problems but resistant to feedback blaming architecture.</situation>
+              <task>Lead front-end development team and resolve critical performance issue threatening project delivery.</task>
+              <action>Developed prototype demonstrating performance improvement approach. When colleague unconvinced, raised impasse in daily team meeting. Project manager reviewed code and saw merit. Rewrote problematic code in few hours. Applied conflict resolution skills: let other party speak without interruption, identify exact causes, ask leading questions, focus on problem not person.</action>
+              <result>Achieved 5X performance improvement. Reduced code from 3,000 lines to 100 lines (97% reduction). Improved maintainability and extensibility. Successfully delivered complex B2B application under deadline pressure.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Code optimization</skill>
+                  <skill>Application architecture</skill>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Cross-functional leadership</skill>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="revere-2002-practice" type="leadership">
+              <situation>After successful Manpower project, opportunity to lead Microsoft Technologies practice. Consulting market facing pressure from offshore competition during dot-com aftermath.</situation>
+              <task>Lead Microsoft Technologies practice managing consultants and driving business development.</task>
+              <action>Managed team of 10 consultants. Led pre-sales activities including positioning, selling services, and proposals. Developed service strategy. Won notable deal with Audio Visual Services Corporation (AVSC) for mobile Pocket PC application tracking audiovisual equipment valued at $1M for 3 resources over 6 months. Established firm as premium mid-market consulting partner in Midwest.</action>
+              <result>Led 10-person consulting team. Achieved approximately 50% win rate on proposals. Closed $1M AVSC deal. Left when dot-com bust and offshore competition shifted market to cost focus making premium positioning difficult.</result>
+              <tags>
+                <domain ref="business-development">
+                  <skill>Pre-sales</skill>
+                  <skill>Consultative selling</skill>
+                </domain>
+                <domain ref="program-management">
+                  <skill>Cross-functional leadership</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- IBS -->
+    <position id="ibs-1999" type="previous">
+      <company>Interactive Business Systems</company>
+      <title>Managing Consultant</title>
+      <level>Consultant</level>
+      <location>Brookfield, WI</location>
+      <dates start="1999-02" end="2000-09"/>
+
+      <initiatives>
+        <initiative id="ibs-projects">
+          <name>Y2K and Enterprise Development</name>
+          <activities>
+            <activity id="ibs-1999-crm" type="technical">
+              <situation>Strong Funds (investment firm) had legacy CRM system used by investment advisors with Y2K issues and lacking required features.</situation>
+              <task>Lead development of new CRM application addressing Y2K compliance and feature requirements.</task>
+              <action>Led small development team. Captured requirements from investment advisors. Architected new application in Visual Basic .NET. Structured code base, designed user interface, developed subsystems, tested application, and co-authored documentation.</action>
+              <result>Delivered new CRM system that better met advisor needs with improved performance and Y2K compliance.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                  <technology>Visual Basic .NET</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="ibs-1999-identity" type="technical">
+              <situation>Strong Funds had no central place to manage login credentials across systems. Help desk overloaded with credential issues. Security risk existed as credentials not removed when employees left.</situation>
+              <task>Develop centralized identity management system for credential management across platforms.</task>
+              <action>Gathered requirements from stakeholders. Identified key systems requiring management. Studied API documentation for third-party platforms. Developed and tested identity management code in Visual Basic .NET.</action>
+              <result>Delivered identity management system managing credentials across Microsoft Windows, Novell, various Unix systems, and internal applications. Reduced help desk load and improved security posture.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>API design</skill>
+                  <technology>Visual Basic .NET</technology>
+                </domain>
+              </tags>
+            </activity>
+
+            <activity id="ibs-2000-scjohnson" type="technical">
+              <situation>SC Johnson had no common authentication/authorization mechanism for custom applications creating security risk and redundant disparate systems.</situation>
+              <task>Co-architect authentication and authorization framework for use across SC Johnson custom applications.</task>
+              <action>Co-architected framework design. Developed authentication layer. Co-designed authorization layer and encryption subsystem. Performed testing and documentation.</action>
+              <result>Delivered single, highly performant auth framework used across SC Johnson custom applications. Eliminated security gaps and redundant authentication systems.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                  <technology>Visual Basic .NET</technology>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- PQ AFRICA -->
+    <position id="pq-africa-1995" type="previous">
+      <company>PQ Africa</company>
+      <title>Managing Consultant</title>
+      <level>Consultant</level>
+      <location>Cape Town, South Africa</location>
+      <dates start="1995-09" end="1999-01"/>
+
+      <initiatives>
+        <initiative id="pq-infrastructure">
+          <name>Microsoft/Novell Infrastructure Deployment</name>
+          <activities>
+            <activity id="pq-1996-automation" type="technical">
+              <situation>Infrastructure deployment projects at Metropolitan Life and Engen Petroleum involved deploying thousands of PCs through very time-consuming manual process.</situation>
+              <task>Automate software deployment process to improve deployment efficiency.</task>
+              <action>Leveraged software development background to develop scripting languages for automating software deployment on PCs. Given dedicated office with direction to automate as much deployment as possible.</action>
+              <result>Achieved 5X faster deployment enabling 20 machines per person per day compared to previous highly manual process. Automation became company differentiator. Earned MCSE certification (1995).</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+    <!-- SHOPRITE -->
+    <position id="shoprite-1989" type="previous">
+      <company>Shoprite</company>
+      <title>Trainee Mainframe Operator / System Software Programmer</title>
+      <level>Entry Level</level>
+      <location>Cape Town, South Africa</location>
+      <dates start="1989-08" end="1995-09"/>
+
+      <initiatives>
+        <initiative id="shoprite-systems">
+          <name>Mainframe Operations and Driver Development</name>
+          <activities>
+            <activity id="shoprite-1991-drivers" type="technical">
+              <situation>Company expanding team to manage non-mainframe systems as part of distributed computing strategy adopting PCs. Needed programmers for driver development.</situation>
+              <task>Develop and maintain drivers for mid-range machine to mainframe communication.</task>
+              <action>Invested in personal PC to learn installation and operation. Completed company-provided COBOL programming training and certification. Applied for and received position as System Software Programmer. Developed and maintained printer drivers and scanner drivers for mid-range to mainframe communication. Completed Diploma in Datametrics (Computer Science) at University of South Africa.</action>
+              <result>Transitioned from mainframe operations to system software development. Delivered printer and scanner drivers for mid-range machine to mainframe communication. Earned COBOL certification and completed computer science diploma. Foundation for transition to PC ecosystem consulting.</result>
+              <tags>
+                <domain ref="software-development">
+                  <skill>Application architecture</skill>
+                </domain>
+              </tags>
+            </activity>
+          </activities>
+        </initiative>
+      </initiatives>
+    </position>
+
+  </positions>
+
+  <!-- CREDENTIALS Section -->
+  <credentials>
+    <education>
+      <degree id="edu-bcomm" type="bachelors">
+        <name>Bachelor of Commerce (BComm)</name>
+        <major>General Management (Finance, Marketing, Operations) + IT Management</major>
+        <institution>University of South Africa (UNISA)</institution>
+        <year>2000</year>
+        <notes>Completed while working full-time through distance learning</notes>
+      </degree>
+      <degree id="edu-diploma" type="diploma">
+        <name>Diploma in Datametrics</name>
+        <major>Computer Science</major>
+        <institution>University of South Africa (UNISA)</institution>
+        <year>1995</year>
+        <notes>Completed while working full-time through distance learning</notes>
+      </degree>
+    </education>
+
+    <certifications>
+      <certification id="cert-genai-leader" status="active">
+        <name>Generative AI Leader</name>
+        <issuer>Google Cloud</issuer>
+        <year>2025</year>
+      </certification>
+      <certification id="cert-sixsigma" status="active">
+        <name>Six Sigma Black Belt</name>
+        <issuer>Allstate</issuer>
+        <year>2005</year>
+        <projects>EA decision-making improvement, COO-sponsored policy cycle time reduction</projects>
+      </certification>
+      <certification id="cert-gcp" status="expired">
+        <name>Google Cloud Certified Architect</name>
+        <issuer>Google</issuer>
+        <year>2016</year>
+      </certification>
+      <certification id="cert-mcsd" status="expired">
+        <name>Microsoft Certified Solutions Developer (MCSD)</name>
+        <issuer>Microsoft</issuer>
+        <year>2000</year>
+      </certification>
+      <certification id="cert-mcse" status="expired">
+        <name>Microsoft Certified Systems Engineer (MCSE)</name>
+        <issuer>Microsoft</issuer>
+        <year>1995</year>
+      </certification>
+    </certifications>
+
+    <awards>
+      <award id="award-coe-2013">
+        <name>Circle of Excellence Award</name>
+        <issuer>Microsoft</issuer>
+        <year>2013</year>
+        <context>Team award for fiscal year performance</context>
+      </award>
+      <award id="award-coe-2008">
+        <name>Circle of Excellence Award</name>
+        <issuer>Microsoft</issuer>
+        <year>2008</year>
+        <context>Team award for fiscal year performance</context>
+      </award>
+      <award id="award-mgx-2013">
+        <name>Best in Class Field Execution</name>
+        <issuer>Microsoft Global Sales Conference (MGX)</issuer>
+        <year>2013</year>
+        <context>Tribune partnership strategy</context>
+      </award>
+      <award id="award-goldclub-2012">
+        <name>Gold Club Nomination</name>
+        <issuer>Microsoft</issuer>
+        <year>2012</year>
+        <context>Tribune engagement</context>
+      </award>
+      <award id="award-topcontrib-2012">
+        <name>Top Contributor Award</name>
+        <issuer>Microsoft</issuer>
+        <year>2012</year>
+        <context>Q1 individual recognition</context>
+      </award>
+      <award id="award-topcontrib-2011">
+        <name>Top Contributor Award</name>
+        <issuer>Microsoft</issuer>
+        <year>2011</year>
+        <context>Individual recognition</context>
+      </award>
+      <award id="award-topcontrib-2010">
+        <name>Top Contributor Award</name>
+        <issuer>Microsoft</issuer>
+        <year>2010</year>
+        <context>Individual recognition</context>
+      </award>
+      <award id="award-exceeds-2022">
+        <name>Exceeds Expectations</name>
+        <issuer>Google Cloud</issuer>
+        <year>2022</year>
+        <context>Performance rating (back-to-back)</context>
+      </award>
+      <award id="award-exceeds-2021">
+        <name>Exceeds Expectations</name>
+        <issuer>Google Cloud</issuer>
+        <year>2021</year>
+        <context>Performance rating (back-to-back)</context>
+      </award>
+      <award id="award-dea-2009">
+        <name>Special Agent Award</name>
+        <issuer>Drug Enforcement Agency (DEA)</issuer>
+        <year>2009</year>
+        <context>Cloud security presentations to Electronic Crimes Task Force</context>
+      </award>
+      <award id="award-usss-2009">
+        <name>Contribution Award</name>
+        <issuer>US Secret Service</issuer>
+        <year>2009</year>
+        <context>Cloud security education for Electronic Crimes Task Force</context>
+      </award>
+      <award id="award-mcd-2024">
+        <name>CIO Recognition</name>
+        <issuer>McDonald's</issuer>
+        <year>2024</year>
+        <context>GCP Champs program praised by CIO</context>
+      </award>
+    </awards>
+
+    <board-positions>
+      <position>
+        <organization>MobiusEngine.ai</organization>
+        <role>Board Member</role>
+        <period>2023-2025</period>
+        <context>AI startup advisory</context>
+      </position>
+    </board-positions>
+
+    <speaking>
+      <engagement type="external">
+        <event>RSA Conference</event>
+        <year>2016</year>
+        <topic>Cloud Security</topic>
+      </engagement>
+      <engagement type="external">
+        <event>Advisen Risk Management Conference</event>
+        <year>2016</year>
+        <topic>Cloud Security</topic>
+      </engagement>
+      <engagement type="external">
+        <event>AON CTO Conference (Rotterdam)</event>
+        <year>2009</year>
+        <topic>Cloud Migration Strategy</topic>
+      </engagement>
+      <engagement type="internal">
+        <event>Google Cloud Global Sales Conference</event>
+        <year>2019</year>
+        <topic>Azure Compute</topic>
+        <metrics>500+ attendees, 4.6 rating</metrics>
+      </engagement>
+      <engagement type="internal">
+        <event>Microsoft Global Sales Conference (MGX)</event>
+        <year>2013</year>
+        <topic>Best in Class Field Execution</topic>
+      </engagement>
+    </speaking>
+
+    <volunteering>
+      <activity>
+        <organization>US Secret Service Electronic Crimes Task Force (ECTF)</organization>
+        <role>Industry Advisor</role>
+        <period>2009</period>
+        <location>Chicago Chapter</location>
+        <description>Delivered cloud security presentations to private sector, academic sector, Secret Service agents, and DEA analysts</description>
+      </activity>
+      <activity>
+        <organization>Chicago Museums (Field Museum, Museum of Science and Industry, Chicago Children's Museum, Illinois Holocaust Museum)</organization>
+        <role>Technical Advisor</role>
+        <period>2010-2011</period>
+        <description>Microsoft Kinect and Photosynth integration into digital exhibits</description>
+      </activity>
+    </volunteering>
+  </credentials>
+
+  <!-- HIGH ATTENTION ZONE: Keywords for matching -->
+  <keywords>
+    <category name="AI/ML">
+      Generative AI, LLM, large language models, AI platform, AI architecture, multi-agent systems,
+      agentic AI, RAG, retrieval augmented generation, prompt engineering, AI governance, responsible AI,
+      MLOps, AIOps, A2A protocol, MCP, Model Context Protocol, Gemini, Claude, Llama, Vertex AI,
+      Agent Development Kit, use case analysis, AI strategy
+    </category>
+    <category name="Cloud">
+      Google Cloud Platform, GCP, BigQuery, Cloud Run, Kubernetes, GKE, edge computing, multi-cloud,
+      Microsoft Azure, cloud migration, cloud architecture, cloud security, TCO, infrastructure modernization,
+      application modernization, Google Cloud Migration Center, Firebase, Stratozone, VM migration
+    </category>
+    <category name="Enterprise Architecture">
+      Enterprise architecture, solution architecture, AI architecture, business architecture, data architecture,
+      target state architecture, architecture operating model, capability modeling, value stream mapping,
+      TOGAF, BIZBOK, ArchiMate, SOA, service-oriented architecture, architecture governance, vendor assessment
+    </category>
+    <category name="Value Engineering">
+      Value engineering, TCO analysis, business case development, ROI modeling, asset discovery,
+      migration planning, pipeline generation, forecast accuracy, sales cycle optimization, deal support
+    </category>
+    <category name="Program Management">
+      Program management, cross-functional leadership, stakeholder management, global programs,
+      methodology development, training program design, volunteer coordination, 20% projects
+    </category>
+    <category name="Sales and Business Development">
+      Business development, C-level engagement, executive relationship building, partnership structuring,
+      deal negotiation, consultative selling, pre-sales, competitive intelligence, sales enablement
+    </category>
+    <category name="Process Improvement">
+      Six Sigma, Black Belt, process engineering, process improvement, root cause analysis,
+      control plans, value stream analysis, data-driven decision making, cycle time reduction
+    </category>
+    <category name="Industries">
+      QSR, quick service restaurant, financial services, retail, media, telecommunications,
+      public sector, DoD, insurance, manufacturing
+    </category>
+    <category name="Leadership">
+      Technology strategy, thought leadership, technology evangelism, public speaking,
+      executive presentations, content development, team leadership, conflict resolution
+    </category>
+    <category name="Development">
+      Python, C#, React, Next.js, Firebase, full-stack development, API design,
+      application architecture, code optimization, Windows development
+    </category>
+  </keywords>
+
+</career-profile>

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+firebase-debug.log
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.env

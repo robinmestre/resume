@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Career Summary - Condensed Version
+  Optimized for quick reference and initial JD matching
+  For full STAR activities, reference career-profile.xml
+  Last updated: 2026-01-13
+-->
+<career-summary version="1.0" last-updated="2026-01-13">
+
+  <!-- HIGH ATTENTION ZONE: Identity and Contact -->
+  <identity>
+    <name>Robin Mestre</name>
+    <current-title>Principal AI Architect (Generative AI)</current-title>
+    <current-employer>McDonald's Corporation</current-employer>
+    <location>Chicago, IL</location>
+    <citizenship>US Citizen</citizenship>
+    <contact>
+      <phone>(847) 767-2777</phone>
+      <email>robinm@principiogroup.com</email>
+      <linkedin>https://www.linkedin.com/in/robinmestre/</linkedin>
+    </contact>
+    <languages>
+      <language proficiency="fluent">English</language>
+      <language proficiency="fluent">Afrikaans</language>
+      <language proficiency="learning">French</language>
+    </languages>
+    <career-span years="35">1989-Present</career-span>
+  </identity>
+
+  <!-- KEY METRICS: Quick scanning -->
+  <key-metrics>
+    <metric id="ai-use-cases" value="325" context="McDonald's AI strategy across 8 business functions"/>
+    <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering, 9 months"/>
+    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune tablet initiative"/>
+    <metric id="people-trained" value="784+" context="GCP Champs + competitive intel programs"/>
+    <metric id="program-contributors" value="88" context="Google Cloud Industry Business Architecture"/>
+    <metric id="architecture-artifacts" value="45+" context="McDonald's architecture operating model"/>
+    <metric id="internal-investment" value="$2.5M" context="Microsoft strategic partnerships"/>
+  </key-metrics>
+
+  <!-- EXPERTISE DOMAINS (summary only) -->
+  <expertise>
+    <tier name="Deep Expertise" level="1" years="10+">
+      <domain id="enterprise-architecture">Enterprise Architecture</domain>
+      <domain id="cloud-platforms">Cloud Platforms (GCP, Azure)</domain>
+      <domain id="technology-evangelism">Technology Evangelism</domain>
+      <domain id="program-management">Program Management</domain>
+    </tier>
+    <tier name="Strong Expertise" level="2" years="5-10">
+      <domain id="ai-ml">AI/ML and Generative AI</domain>
+      <domain id="value-engineering">Value Engineering</domain>
+      <domain id="sales-enablement">Sales Enablement</domain>
+      <domain id="business-development">Business Development</domain>
+    </tier>
+    <tier name="Working Expertise" level="3" years="2-5">
+      <domain id="six-sigma">Six Sigma / Process Engineering</domain>
+      <domain id="competitive-intelligence">Competitive Intelligence</domain>
+      <domain id="martech-loyalty">MarTech / Loyalty</domain>
+      <domain id="software-development">Software Development</domain>
+    </tier>
+  </expertise>
+
+  <!-- POSITION TIMELINE (titles and dates only) -->
+  <positions>
+    <position id="mcd-2024" type="current">
+      <company>McDonald's Corporation</company>
+      <title>Principal AI Architect (Generative AI)</title>
+      <dates start="2024-03" end="present"/>
+      <highlights>10-layer AI platform architecture, 325 use cases, 45+ artifacts</highlights>
+    </position>
+    <position id="principio-2023" type="concurrent">
+      <company>Principio Group</company>
+      <title>Founder &amp; Principal</title>
+      <dates start="2023-04" end="present"/>
+      <highlights>WaivePath sales enablement platform, Agentient AI co-founder platform</highlights>
+    </position>
+    <position id="google-2021" type="previous">
+      <company>Google Cloud</company>
+      <title>Principal Program Manager</title>
+      <dates start="2019-12" end="2023-03"/>
+      <highlights>88 contributors, 12 industries, 85% content production reduction</highlights>
+    </position>
+    <position id="google-2018" type="previous">
+      <company>Google Cloud</company>
+      <title>Head of Value Engineering</title>
+      <dates start="2018-01" end="2019-11"/>
+      <highlights>$1.5B pipeline in 9 months, 10X growth, Stratozone acquisition</highlights>
+    </position>
+    <position id="google-2016" type="previous">
+      <company>Google Cloud</company>
+      <title>Principal Strategic Advisor</title>
+      <dates start="2016-03" end="2017-12"/>
+      <highlights>Enterprise security evangelist, first security specialist team</highlights>
+    </position>
+    <position id="verizon-2015" type="previous">
+      <company>Verizon Enterprise Solutions</company>
+      <title>Principal Client Partner</title>
+      <dates start="2015-09" end="2016-02"/>
+      <highlights>$800M book of business, cloud services portfolio</highlights>
+    </position>
+    <position id="principio-2014" type="previous">
+      <company>Principio Group</company>
+      <title>Founder &amp; Principal</title>
+      <dates start="2014-12" end="2018-12"/>
+      <highlights>WotCom app Top 10 in 4 countries, Top 200 in major markets</highlights>
+    </position>
+    <position id="microsoft-2012" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Senior Business Development Manager</title>
+      <dates start="2012" end="2014-11"/>
+      <highlights>$2.5M internal investment, Walmart partnership, Food Network launch app</highlights>
+    </position>
+    <position id="microsoft-2008" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Senior Platform Strategy Advisor</title>
+      <dates start="2008-02" end="2012"/>
+      <highlights>$3.3B Tribune opportunity, AON competitive win, $1.5M Azure savings</highlights>
+    </position>
+    <position id="microsoft-2006" type="previous">
+      <company>Microsoft Corporation</company>
+      <title>Architect Evangelist</title>
+      <dates start="2006-04" end="2008-02"/>
+      <highlights>Office 2007 launch showcase, Circle of Excellence 2008</highlights>
+    </position>
+    <position id="allstate-2004" type="previous">
+      <company>Allstate Financial</company>
+      <title>Enterprise Architect</title>
+      <dates start="2004-01" end="2006-03"/>
+      <highlights>Six Sigma Black Belt, 20% policy cycle reduction, 14% acceptance improvement</highlights>
+    </position>
+    <position id="revere-2000" type="previous">
+      <company>The Revere Group</company>
+      <title>Managing Consultant / Practice Lead</title>
+      <dates start="2000-09" end="2003-12"/>
+      <highlights>Led 10 consultants, $1M AVSC deal, 5X performance improvement</highlights>
+    </position>
+    <position id="ibs-1999" type="previous">
+      <company>Interactive Business Systems</company>
+      <title>Managing Consultant</title>
+      <dates start="1999-02" end="2000-09"/>
+      <highlights>CRM development, identity management system, auth framework</highlights>
+    </position>
+    <position id="pq-africa-1995" type="previous">
+      <company>PQ Africa</company>
+      <title>Managing Consultant</title>
+      <dates start="1995-09" end="1999-01"/>
+      <highlights>5X deployment automation, MCSE certification</highlights>
+    </position>
+    <position id="shoprite-1989" type="previous">
+      <company>Shoprite</company>
+      <title>Trainee / System Software Programmer</title>
+      <dates start="1989-08" end="1995-09"/>
+      <highlights>Driver development, COBOL certification, Computer Science diploma</highlights>
+    </position>
+  </positions>
+
+  <!-- CREDENTIALS SUMMARY -->
+  <credentials>
+    <education>
+      <degree>Bachelor of Commerce - General Management + IT (UNISA, 2000)</degree>
+      <degree>Diploma in Datametrics - Computer Science (UNISA, 1995)</degree>
+    </education>
+    <certifications>
+      <certification status="active">Six Sigma Black Belt (Allstate, 2005)</certification>
+      <certification status="expired">Google Cloud Certified Architect (2016)</certification>
+      <certification status="expired">MCSD (2000), MCSE (1995)</certification>
+    </certifications>
+    <awards-summary>
+      2x Circle of Excellence (Microsoft), MGX Best in Class, 3x Top Contributor,
+      2x Exceeds Expectations (Google), DEA Special Agent Award, USSS Contribution Award
+    </awards-summary>
+    <board-positions>MobiusEngine.ai Board Member (2023-2025)</board-positions>
+  </credentials>
+
+  <!-- HIGH ATTENTION ZONE: Top Keywords -->
+  <keywords>
+    Generative AI, LLM, AI platform, AI architecture, multi-agent systems, RAG, prompt engineering,
+    Google Cloud Platform, GCP, Azure, cloud migration, enterprise architecture, target state architecture,
+    value engineering, TCO analysis, pipeline generation, program management, cross-functional leadership,
+    C-level engagement, business development, Six Sigma, process improvement, technology evangelism
+  </keywords>
+
+</career-summary>
