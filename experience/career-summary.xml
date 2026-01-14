@@ -27,11 +27,21 @@
     <career-span years="35">1989-Present</career-span>
   </identity>
 
+  <!-- POSITIONING: Builder-Architect Hybrid -->
+  <positioning>
+    <headline>AI leader who builds strategy AND the platforms to execute it</headline>
+    <differentiators>
+      <diff>Architect who codes: 4 McDonald's agents in production, WaivePath 8-agent system, Food Network Windows 8 app</diff>
+      <diff>Zero-to-one builder: Stratozone became Migration Center, Value Engineering 10X growth, accreditation standards still in use</diff>
+      <diff>Rapid executive engagement: Tribune CEO access in 1 week, AON competitive win, McDonald's CIO/VP adoption</diff>
+    </differentiators>
+  </positioning>
+
   <!-- KEY METRICS: Quick scanning -->
   <key-metrics>
     <metric id="ai-use-cases" value="325" context="McDonald's AI strategy across 8 business functions"/>
     <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering, 9 months"/>
-    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune tablet initiative"/>
+    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune opportunity (capability demo led to Azure win)"/>
     <metric id="people-trained" value="784+" context="GCP Champs + competitive intel programs"/>
     <metric id="program-contributors" value="88" context="Google Cloud Industry Business Architecture"/>
     <metric id="architecture-artifacts" value="45+" context="McDonald's architecture operating model"/>
@@ -84,7 +94,7 @@
       <company>Google Cloud</company>
       <title>Head of Value Engineering</title>
       <dates start="2018-01" end="2019-11"/>
-      <highlights>$1.5B pipeline in 9 months, 10X growth, Stratozone acquisition</highlights>
+      <highlights>Stratozone acquisition (now Migration Center), $1.5B pipeline in 9 months (10X growth)</highlights>
     </position>
     <position id="google-2016" type="previous">
       <company>Google Cloud</company>
@@ -114,7 +124,7 @@
       <company>Microsoft Corporation</company>
       <title>Senior Platform Strategy Advisor</title>
       <dates start="2008-02" end="2012"/>
-      <highlights>$3.3B Tribune opportunity, AON competitive win, $1.5M Azure savings</highlights>
+      <highlights>$3.3B Tribune opportunity identified (led to Azure win), AON competitive win vs Google, $1.5M Azure savings</highlights>
     </position>
     <position id="microsoft-2006" type="previous">
       <company>Microsoft Corporation</company>

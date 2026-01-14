@@ -45,8 +45,8 @@
       <activity id="mcd-2024-agents" type="technical">
         <situation>Architecture team needed tools to automate reviews and provide decision support across complex enterprise systems.</situation>
         <task>Develop AI-powered agents to automate architecture tasks and provide analytical insights.</task>
-        <action>Developed 5 specialized AI agents: GenAI Architecture Assistant, Decision Advisor, Current State Researcher, Business Architecture Modeler, Global Program Management Agent.</action>
-        <result>Deployed 5 AI agents supporting architecture team. Reduced manual effort for assessments with consistent, repeatable analysis.</result>
+        <action>Personally developed 4 specialized AI agents now in production: GenAI Architecture Assistant, Decision Advisor, Current State Researcher, Business Architecture Modeler. Currently building Global Program Management Agent.</action>
+        <result>Built and deployed 4 AI agents running in production. Agents provide automated, repeatable analysis reducing manual architecture assessment effort. Fifth agent in development.</result>
         <tags>
           <domain ref="ai-ml"><skill>Multi-agent systems</skill><skill>RAG pipelines</skill></domain>
         </tags>
@@ -105,7 +105,7 @@
       <activity id="principio-2024-agentient" type="strategic">
         <situation>Startup founders lack AI tools providing compounding intelligence throughout product development lifecycle.</situation>
         <task>Design AI-first B2B SaaS platform providing AI co-pilot capabilities for startups.</task>
-        <action>Designed 7-module suite (Spark, Flow, Prism, Vantage, Foundry, Ignite, Academy). Architected stack (React/Next.js, Firebase, Cloud Run, ADK, RAG). Conducted founder interviews.</action>
+        <action>Designed 7-module suite. Personally building stack: React/Next.js, Firebase, Cloud Run, MCP for tool integration, RAG pipeline. Implemented custom MCP servers connecting Claude to Notion and filesystem. Applied MVP approach from WaivePath learnings.</action>
         <result>Designed 7-module architecture. Flow in beta. Validated market through interviews. Potential consulting pivot with Vantage module.</result>
         <tags>
           <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>Agent Development Kit</technology></domain>
@@ -123,7 +123,7 @@
         <situation>Sales teams lacked industry knowledge to engage business executives. No unified methodology across siloed enablement teams.</situation>
         <task>Build largest cross-functional program of career developing industry business architecture content.</task>
         <action>Managed 88 contributors, 10 workstreams, 3 cross-functional teams, 12 industries. Engaged Accenture for initial 6-industry bill-of-materials. Created internal website. Recruited volunteers. Partnered with Distinguished Engineer. Added McKinsey research. Launched 20% project for TPMs.</action>
-        <result>Delivered content for 12 industries with 6 use cases. Managed 88 contributors without direct authority. Doubled traffic to enablement content. Became basis for Level 300 accreditation.</result>
+        <result>Delivered content for 12 industries with 6 use cases. Led 88 contributors across 10 workstreams without direct authority. Doubled traffic to enablement content. Became basis for Level 300 accreditation standard (still in use).</result>
         <tags>
           <domain ref="program-management"><skill>Cross-functional leadership</skill><skill>Volunteer coordination</skill></domain>
           <domain ref="enterprise-architecture"><skill>Capability modeling</skill></domain>
@@ -172,8 +172,8 @@
       <activity id="google-2018-stratozone" type="strategic">
         <situation>Google Cloud Engineering preferred acquisition over internal development for discovery/assessment capabilities. GPM for Compute wanted tooling to support migrations.</situation>
         <task>Provide SME consultation on acquisition targets. Participate in due diligence and negotiations.</task>
-        <action>Served as SME evaluating CloudPhysics and Stratozone. Conducted analysis and due diligence. Recommended Stratozone. Participated in negotiations.</action>
-        <result>Stratozone acquired by Google Cloud (2020). Became Google Cloud Migration Center. Created seamless discovery-to-migration solution.</result>
+        <action>Served as SME advising GPM on acquisition candidates. Conducted build-vs-buy analysis and technical due diligence. Authored recommendation for Stratozone. Participated in vendor negotiations. Maintained CEO relationship facilitating deal.</action>
+        <result>Stratozone acquired by Google Cloud (2020). Recommendation contributed to decision. Became Google Cloud Migration Center—still in production today. Created seamless discovery-to-migration solution.</result>
         <tags>
           <domain ref="value-engineering"><technology>Stratozone</technology><technology>Google Cloud Migration Center</technology></domain>
           <domain ref="business-development"><skill>Deal negotiation</skill></domain>
@@ -236,7 +236,7 @@
       <activity id="microsoft-2012-scripps" type="strategic">
         <situation>Scripps Networks (HGTV, Food Network) valuable brands for Windows 8 launch. Few months to deadline with insufficient resources.</situation>
         <task>Secure Scripps brands for Windows platforms.</task>
-        <action>Secured executive briefing. Met COO then CEO at CES. Secured CEO support for Food Network app. Personally wrote much of Windows 8 app in C# alongside technical evangelist.</action>
+        <action>Secured executive briefing. Met COO then CEO at CES. Secured CEO support for Food Network app. Personally coded significant portions of Windows 8 app in C# using WinRT APIs—learned platform while delivering under deadline.</action>
         <result>Food Network became one of 5 major showcase apps for Windows 8 launch. Demonstrated business development plus technical delivery.</result>
         <tags>
           <domain ref="business-development"><skill>C-level engagement</skill></domain>
@@ -265,7 +265,7 @@
         <situation>Tribune board asking about digital mobile strategy after iPad launch. Windows had less than 1% share requiring compelling case.</situation>
         <task>Develop comprehensive mobile strategy for Tribune to position Windows as strategic platform.</task>
         <action>Conducted deep industry research (advertising, distribution). Built prototype. Developed vision encompassing all Tribune properties. Presented to CEO within one week of Steve Gable intro.</action>
-        <result>Identified $3.3B opportunity (11M subscribers x $300 BOM). Connected Tribune with Windows, OEM/ODM, Advertising teams. Won Azure deal and advertising partnership. Gold Club, Top Contributor, MGX Best in Class recognition.</result>
+        <result>Identified $3.3B market opportunity (11M subscribers × $300 BOM). Capability demo led to CEO access within 1 week. Windows tablet lost to platform issues, but relationship yielded Azure Content Cloud deal ($1.5M savings). Recognition: Gold Club, 3x Top Contributor, MGX Best in Class.</result>
         <tags>
           <domain ref="business-development"><skill>C-level engagement</skill><skill>Consultative selling</skill></domain>
           <domain ref="technology-evangelism"><skill>Thought leadership</skill></domain>

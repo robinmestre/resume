@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Interview Positioning Guide v1.0
+  Derived from career coaching session: 2026-01-13
+  Purpose: Talking points, Q&A guidance, vulnerability handling
+  
+  Key Insight: Robin's differentiator is BUILDER-ARCHITECT HYBRID
+  Most Principal Architects either think strategically OR write code.
+  Robin does both. Lead with this.
+-->
+<interview-positioning version="1.0" last-updated="2026-01-13">
+
+  <!-- CORE NARRATIVE -->
+  <narrative>
+    <elevator-pitch>
+      I'm a builder-architect hybrid. Most Principal Architects either think strategically 
+      or write code—I do both. I've stood up five new functions at Google and Microsoft, 
+      including the program that led to Google Cloud Migration Center. I designed McDonald's 
+      enterprise AI architecture AND built agents that are running in production. I can see 
+      the big picture and I can ship.
+    </elevator-pitch>
+    
+    <differentiators>
+      <differentiator id="builder-architect">
+        <claim>Builder-Architect Hybrid</claim>
+        <evidence>
+          <proof>4 McDonald's agents deployed (GCP Champs automation, TPM project analysis, capability modeling, architecture research)</proof>
+          <proof>WaivePath 8-agent orchestration system built from scratch</proof>
+          <proof>Food Network Windows 8 app (85-95% of production code)</proof>
+          <proof>Agentient multi-agent system with MCP server integration</proof>
+        </evidence>
+        <talking-point>
+          "I can architect solutions I actually know how to build. My hands-on agent 
+          development at Agentient directly informs my enterprise architecture work 
+          at McDonald's."
+        </talking-point>
+      </differentiator>
+      
+      <differentiator id="zero-to-one">
+        <claim>Zero-to-One Program Builder</claim>
+        <evidence>
+          <proof>Value Engineering: $150M → $1.5B pipeline (10X growth)</proof>
+          <proof>Industry Business Architecture: 88 contributors, 12 industries</proof>
+          <proof>GCP Champs: 154 direct + 166 pull-through participants, 7X completion rate</proof>
+          <proof>Stratozone program → acquired → Google Cloud Migration Center</proof>
+        </evidence>
+        <talking-point>
+          "I deliberately pursue emerging functions where I can build from zero. 
+          The trade-off is organizational volatility—these functions get restructured. 
+          The benefit is I've stood up five new practices, each time creating infrastructure 
+          that outlasted my tenure."
+        </talking-point>
+      </differentiator>
+      
+      <differentiator id="executive-access">
+        <claim>Rapid Executive Engagement</claim>
+        <evidence>
+          <proof>Tribune: Workshop attendee → CEO presentation in weeks</proof>
+          <proof>AON: Competitive win against Google, invited to Rotterdam CTO conference</proof>
+          <proof>McDonald's CIO adoption of architecture, VP adoption of Agent Maria</proof>
+        </evidence>
+        <talking-point>
+          "I research clients' strategic initiatives deeply before engaging. 
+          This consultative approach opens doors that pure sales can't reach."
+        </talking-point>
+      </differentiator>
+      
+      <differentiator id="ma-involvement">
+        <claim>M&amp;A Strategic Contribution</claim>
+        <evidence>
+          <proof>Served as SME on Stratozone acquisition team</proof>
+          <proof>Conducted build vs. buy analysis for GPM Compute</proof>
+          <proof>Identified product gaps, negotiated vendor roadmap commitments</proof>
+          <proof>Connected M&amp;A team with target CEO</proof>
+          <proof>Product became Google Cloud Migration Center</proof>
+        </evidence>
+        <talking-point>
+          "I drove the acquisition recommendation that became Google Cloud Migration Center—
+          consolidated competing partner programs, conducted build vs. buy analysis, 
+          negotiated vendor commitments, and connected M&amp;A with the CEO."
+        </talking-point>
+      </differentiator>
+    </differentiators>
+  </narrative>
+
+  <!-- COMMON INTERVIEW QUESTIONS -->
+  <common-questions>
+    
+    <question id="mcdonalds-tenure">
+      <prompt>You've been at McDonald's less than a year. What have you actually delivered?</prompt>
+      <concern>Short tenure with potentially thin concrete achievements</concern>
+      <recommended-response>
+        McDonald's engaged me to design their AI platform architecture, which I delivered 
+        and the CIO adopted. But I also built working agents—the GCP Champs automation 
+        serving 150+ participants, the TPM project analysis tool that our VP uses, and 
+        architecture research tooling for the EA team. I believe architects should prove 
+        their designs work by building pieces of them.
+      </recommended-response>
+      <proof-points>
+        <proof>10-layer architecture adopted as technical roadmap</proof>
+        <proof>4 AI agents deployed and in active use</proof>
+        <proof>GCP Champs: 100 certifications, 7X completion rate</proof>
+        <proof>325 use cases synthesized into 22 reusable patterns</proof>
+      </proof-points>
+    </question>
+    
+    <question id="google-departures">
+      <prompt>You had multiple role changes at Google. What happened?</prompt>
+      <concern>Pattern of restructuring rather than advancement</concern>
+      <recommended-response>
+        I deliberately pursue zero-to-one opportunities—building new functions in emerging 
+        spaces. The trade-off is organizational volatility. Field CTO got centralized to 
+        engineering because Google wanted VPs with 20+ years of industry experience. 
+        Value Engineering I scaled 10X, then they brought in specialists with 25 years 
+        of specific experience to take it further. Industry Enablement was deprioritized 
+        in a strategic shift. But the Stratozone program I built became Google Cloud 
+        Migration Center. I build things that last even when my role doesn't.
+      </recommended-response>
+      <reframe>
+        "Restructured out" → "Built something valuable enough that it needed its own organization"
+      </reframe>
+    </question>
+    
+    <question id="technical-depth">
+      <prompt>Are you actually technical, or just a strategist who makes decks?</prompt>
+      <concern>Principal Architect title often means paper architecture only</concern>
+      <recommended-response>
+        I wrote 85% of the production code for the Food Network Windows 8 app—that was 
+        a flagship launch showcase, C# on a new platform with limited documentation and 
+        a hard deadline. At Agentient, I'm building multi-agent systems with MCP integration 
+        and cross-platform context management. At McDonald's, I use Copilot Studio and 
+        Power Automate for practical automation. I operate at whatever technical level 
+        solves the problem.
+      </recommended-response>
+      <calibration-note>
+        McDonald's agents are low-code (Copilot Studio, Power Automate, Rovo). 
+        Don't conflate with distributed systems engineering. 
+        Agentient work is more sophisticated (MCP server, multi-agent orchestration).
+      </calibration-note>
+    </question>
+    
+    <question id="pipeline-number">
+      <prompt>You claim $1.5B pipeline. How do you attribute that to yourself?</prompt>
+      <concern>Large numbers at big companies often reflect proximity, not causation</concern>
+      <recommended-response>
+        When I took over Value Engineering, my predecessor had built a partnership with 
+        Stratozone running at about $150M pipeline. I made the decision to scale it globally—
+        flew to 20 cities to train the sales force, renegotiated the partner contract to 
+        add capabilities at no cost, and reinvested savings into the enablement program. 
+        I also consolidated a second partner (CloudPhysics) under the same umbrella. 
+        In 9 months, the program scaled to $1.5B. The causal chain is clear: I built the 
+        infrastructure that enabled the field to qualify and quantify deals at scale.
+      </recommended-response>
+      <better-framing>
+        "Scaled Google Cloud's value engineering program from $150M to $1.5B pipeline (10X growth) 
+        by training the global sales force across 20 cities, renegotiating partner contracts, 
+        and standardizing TCO methodology."
+      </better-framing>
+    </question>
+    
+    <question id="tribune-opportunity">
+      <prompt>You mention a $3.3B opportunity that didn't close. How is that an achievement?</prompt>
+      <concern>Claiming credit for deals that didn't happen</concern>
+      <recommended-response>
+        The $3.3B demonstrates capability, not outcome. My job was business development—
+        identify opportunities, secure executive access, build strategic cases. I went from 
+        a technical workshop to CEO presentation within weeks through self-initiated market 
+        research. The tablet deal didn't close due to device quality issues outside my control. 
+        What I did convert was a major Windows Azure partnership that saved Tribune $1.5M 
+        annually. The Azure deal was the actual win; the tablet opportunity shows how I find 
+        and pursue strategic possibilities.
+      </recommended-response>
+      <better-framing>
+        "Identified $3.3B tablet partnership opportunity through self-initiated market analysis; 
+        secured CEO presentation within weeks. Converted relationship into Windows Azure 
+        partnership with $1.5M annual cost savings."
+      </better-framing>
+    </question>
+    
+    <question id="venture-experience">
+      <prompt>Your startup ventures don't seem successful. Why should I value that experience?</prompt>
+      <concern>Founder titles without market success</concern>
+      <recommended-response>
+        WaivePath taught me that target market selection matters more than product quality—
+        we built for salespeople who don't buy learning products instead of sales enablement 
+        professionals who do. That's a $50K lesson I won't repeat. The technical work was 
+        real: I designed an 8-agent content orchestration system from scratch, built the 
+        entire platform, and shipped to market. Agentient applies those lessons—extensive 
+        market validation, founder interviews, and I own 100% so partner dynamics can't 
+        derail execution. The hands-on development keeps my technical skills sharp, which 
+        makes me a better enterprise architect.
+      </recommended-response>
+      <reframe>
+        "Failed startup" → "Shipped product, learned market validation lessons I'm applying now"
+      </reframe>
+    </question>
+    
+    <question id="325-use-cases">
+      <prompt>What does "analyzed 325 use cases" actually mean?</prompt>
+      <concern>Large numbers might be superficial taxonomy work</concern>
+      <recommended-response>
+        We ran discovery workshops across 8 business functions to identify AI opportunities. 
+        I took 325 raw ideas, consolidated duplicates, wrote problem statements and solution 
+        alternatives for each, then analyzed the full portfolio to identify 22 reusable 
+        architectural patterns. It's portfolio synthesis and pattern extraction—not deep 
+        technical design on 325 individual solutions. The value is helping McDonald's 
+        prioritize where limited AI engineering resources should focus for maximum impact.
+      </recommended-response>
+      <better-framing>
+        "Led AI opportunity discovery across 8 business functions, synthesizing 325 use cases 
+        into 22 reusable architectural patterns; developing prioritization framework to 
+        maximize engineering team impact."
+      </better-framing>
+    </question>
+    
+    <question id="88-contributors">
+      <prompt>You say you "managed" 88 people. Did you actually manage them?</prompt>
+      <concern>Overclaiming authority</concern>
+      <recommended-response>
+        Let me be precise: I led a cross-functional program with 88 contributors across 
+        10 workstreams through Google's 20% project framework. I recruited, coordinated, 
+        and provided performance feedback, but I had no hire/fire authority or budget. 
+        The achievement was achieving results through influence rather than positional power—
+        which is often harder than direct management.
+      </recommended-response>
+      <correction>
+        Always say "led" not "managed" for this program.
+      </correction>
+    </question>
+
+  </common-questions>
+
+  <!-- VULNERABILITY HANDLING -->
+  <vulnerabilities>
+    
+    <vulnerability id="role-volatility">
+      <concern>Pattern of roles ending via restructure rather than advancement</concern>
+      <honest-assessment>
+        True. Zero-to-one roles in emerging functions are inherently volatile. 
+        This is a deliberate trade-off, not a failure pattern.
+      </honest-assessment>
+      <reframe>
+        "I build things that outlast my tenure. The Stratozone program became 
+        Google Cloud Migration Center. The enablement standards I created were 
+        adopted across Google Cloud GTM. The architecture operating model at 
+        McDonald's will guide the organization for years."
+      </reframe>
+      <proof-of-lasting-impact>
+        <proof>Stratozone → Google Cloud Migration Center (permanent product)</proof>
+        <proof>Industry BA program → Principal Architect Level 300 accreditation</proof>
+        <proof>Enablement standards → adopted across GTM</proof>
+      </proof-of-lasting-impact>
+    </vulnerability>
+    
+    <vulnerability id="mcdonalds-paper-architecture">
+      <concern>10-layer architecture is not implemented; tenure too short for production deployment</concern>
+      <honest-assessment>
+        True. Target-state architecture has 2-3 year horizon. 
+        Less than 1 year tenure means limited production deployment.
+      </honest-assessment>
+      <mitigation>
+        Lead with the 4 agents that ARE running. Frame architecture as "validated by working prototypes."
+      </mitigation>
+      <talking-point>
+        "The architecture is a 2-3 year roadmap. What's running today are the agents 
+        I built to prove key patterns work—GCP Champs automation, TPM project analysis, 
+        architecture research tools."
+      </talking-point>
+    </vulnerability>
+    
+    <vulnerability id="technical-depth-calibration">
+      <concern>McDonald's agents are low-code (Copilot Studio), not sophisticated engineering</concern>
+      <honest-assessment>
+        True. Copilot Studio and Power Automate are citizen developer tools. 
+        Don't conflate with building distributed systems.
+      </honest-assessment>
+      <calibration>
+        Technical depth ranges from:
+        - Production code (Food Network app, C#)
+        - Sophisticated system architecture (Agentient, MCP, multi-agent)
+        - Practical low-code automation (McDonald's agents)
+        Position as "operating at whatever level solves the problem."
+      </calibration>
+    </vulnerability>
+    
+    <vulnerability id="venture-traction">
+      <concern>Founder titles without commercial success</concern>
+      <honest-assessment>
+        WaivePath has limited traction. Agentient hasn't launched. 
+        This is honest. Don't overclaim.
+      </honest-assessment>
+      <reframe>
+        "Founder who shipped product, learned hard lessons about market validation 
+        and partner selection, applying those lessons to current work."
+      </reframe>
+    </vulnerability>
+
+  </vulnerabilities>
+
+  <!-- NUMBERS THAT SURVIVE SCRUTINY -->
+  <quantification-guide>
+    
+    <metric id="pipeline-1.5b" defensibility="high">
+      <claim>$1.5B pipeline in 9 months</claim>
+      <causal-chain>
+        Inherited $150M run-rate → scaled globally via training (20 cities) + 
+        partner consolidation + contract renegotiation → 10X growth
+      </causal-chain>
+      <better-framing>
+        "Scaled from $150M to $1.5B" (shows baseline and growth)
+      </better-framing>
+    </metric>
+    
+    <metric id="stratozone-acquisition" defensibility="high">
+      <claim>Drove acquisition recommendation that became Google Cloud Migration Center</claim>
+      <causal-chain>
+        SME on evaluation team → build vs. buy analysis → gap identification → 
+        vendor negotiation → CEO connection → acquisition closed
+      </causal-chain>
+      <note>This is undersold. Should be headline of Google section.</note>
+    </metric>
+    
+    <metric id="tribune-3.3b" defensibility="medium">
+      <claim>$3.3B opportunity identified</claim>
+      <issue>Deal didn't close. Opportunity identification ≠ achievement.</issue>
+      <reframe>
+        Lead with capability (CEO access in weeks) and actual win (Azure deal, $1.5M savings).
+        Use $3.3B to demonstrate strategic thinking scope, not as outcome.
+      </reframe>
+    </metric>
+    
+    <metric id="use-cases-325" defensibility="medium">
+      <claim>325 AI use cases analyzed</claim>
+      <issue>"Analyzed" is ambiguous. Could mean taxonomy or deep design.</issue>
+      <clarification>
+        Portfolio synthesis + pattern extraction (22 patterns), not 325 individual technical designs.
+      </clarification>
+      <reframe>
+        "Synthesized 325 use cases into 22 reusable architectural patterns"
+      </reframe>
+    </metric>
+    
+    <metric id="contributors-88" defensibility="high">
+      <claim>88 contributors across 10 workstreams</claim>
+      <issue>Were not direct reports. Volunteer 20% project.</issue>
+      <correction>
+        Say "led" not "managed." The achievement is influence without authority.
+      </correction>
+    </metric>
+    
+    <metric id="gcp-champs" defensibility="high">
+      <claim>154 direct + 166 pull-through, 100 certifications, 7X completion rate</claim>
+      <causal-chain>
+        Designed program → executed training → measured outcomes from reports
+      </causal-chain>
+      <note>CIO praised program. This is concrete with real metrics.</note>
+    </metric>
+    
+    <metric id="agents-deployed" defensibility="medium">
+      <claim>4 AI agents deployed at McDonald's</claim>
+      <calibration>
+        Real and running, but small scale:
+        - GCP Champs: ~90 users
+        - TPM/Agent Maria: dozens of executives, dozens of proposals
+        - Architecture tools: handful of EA users
+      </calibration>
+      <reframe>
+        "Built working agents that validated architecture patterns" 
+        rather than "deployed enterprise AI"
+      </reframe>
+    </metric>
+
+  </quantification-guide>
+
+  <!-- THINGS TO NEVER SAY -->
+  <never-say>
+    <item reason="Self-assessment that sounds arrogant">
+      "I'm the most knowledgeable person on AI at McDonald's"
+    </item>
+    <item reason="Reveals misaligned priorities">
+      "McDonald's is just my income source; my passion is elsewhere"
+    </item>
+    <item reason="Conflates low-code with software engineering">
+      "I deployed AI agents across McDonald's enterprise" (they're small-scale experiments)
+    </item>
+    <item reason="Claims outcome that didn't happen">
+      "I achieved a $3.3B deal at Microsoft" (opportunity, not win)
+    </item>
+    <item reason="Overclaims authority">
+      "I managed 88 people at Google" (led program, no hire/fire)
+    </item>
+    <item reason="Paper architecture isn't achievement at Principal level">
+      "CIO approved my strategy document" (what's implemented?)
+    </item>
+  </never-say>
+
+  <!-- POSITIVE REFRAMES -->
+  <always-say>
+    <item context="When discussing Agentient alongside corporate work">
+      "I build AI systems professionally and personally. The hands-on work keeps 
+      my technical skills sharp, which makes me a better architect."
+    </item>
+    <item context="When discussing venture experience">
+      "I shipped a product, learned hard lessons about market validation and partner 
+      selection, and I'm applying those lessons to my current work."
+    </item>
+    <item context="When discussing Google role changes">
+      "I deliberately pursue zero-to-one opportunities. The Stratozone program I 
+      built became Google Cloud Migration Center—I build things that last."
+    </item>
+    <item context="When asked about technical depth">
+      "I operate at whatever technical level solves the problem—from production code 
+      to sophisticated agent architectures to practical automation."
+    </item>
+  </always-say>
+
+</interview-positioning>

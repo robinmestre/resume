@@ -33,7 +33,7 @@
   <key-metrics>
     <metric id="ai-use-cases" value="325" context="McDonald's AI strategy across 8 business functions"/>
     <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering, 9 months"/>
-    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune tablet initiative"/>
+    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune tablet opportunity (identified, not closed)"/>
     <metric id="people-trained" value="784+" context="GCP Champs (154+166) + competitive intel (500+)"/>
     <metric id="program-contributors" value="88" context="Google Cloud Industry Business Architecture"/>
     <metric id="architecture-artifacts" value="45+" context="McDonald's architecture operating model"/>
@@ -303,8 +303,8 @@
             <activity id="mcd-2024-agents" type="technical">
               <situation>Architecture team needed tools to automate reviews, provide decision support, and accelerate research across complex enterprise systems. Manual processes were time-consuming and inconsistent.</situation>
               <task>Develop AI-powered agents to automate architecture tasks and provide analytical insights for the architecture team.</task>
-              <action>Developed 5 specialized AI agents: GenAI Architecture Assistant for reviewing AI architectures with compliance and readiness scoring; Decision Advisor for strategic decision support with adversarial analysis; Current State Researcher for exhaustive Confluence search and baseline reports; Business Architecture Modeler for capability modeling using BIZBOK and TOGAF; Global Program Management Agent for executive insights on critical projects.</action>
-              <result>Deployed 5 AI agents supporting architecture team productivity. Agents now provide automated architecture reviews, strategic decision support, research synthesis, and program status reporting. Reduced manual effort for architecture assessments by enabling consistent, repeatable analysis.</result>
+              <action>Personally developed 4 specialized AI agents now in production: GenAI Architecture Assistant for reviewing AI architectures with compliance and readiness scoring; Decision Advisor for strategic decision support with adversarial analysis; Current State Researcher for exhaustive Confluence search and baseline reports; Business Architecture Modeler for capability modeling using BIZBOK and TOGAF. Currently building Global Program Management Agent for executive project insights.</action>
+              <result>Built and deployed 4 AI agents currently running in production supporting architecture team: GenAI Architecture Assistant for compliance scoring, Decision Advisor for strategic analysis, Current State Researcher for baseline reports, and Business Architecture Modeler for capability analysis. Agents provide automated, repeatable analysis that reduced manual architecture assessment effort. Fifth agent (Global Program Management) in development.</result>
               <tags>
                 <domain ref="ai-ml">
                   <skill>Multi-agent systems</skill>
@@ -490,7 +490,7 @@
             <activity id="principio-2024-agentient" type="strategic">
               <situation>Startup founders and innovation teams lack AI-powered tools that provide compounding intelligence throughout product development lifecycle. Most AI tools are point solutions without persistent context.</situation>
               <task>Design and develop AI-first B2B SaaS platform providing AI co-pilot capabilities for startups with connected workflow from ideation to launch.</task>
-              <action>Designed 7-module product suite (Spark, Flow, Prism, Vantage, Foundry, Ignite, Academy) covering ideation, prompt management, research, value engineering, requirements, GTM, and training. Architected technical stack using React/Next.js, Firebase, Cloud Run, Agent Development Kit, RAG Engine, and semantic search. Conducted market validation through secondary research and startup founder interviews. Adopted MVP release approach based on WaivePath learnings.</action>
+              <action>Designed 7-module product suite (Spark, Flow, Prism, Vantage, Foundry, Ignite, Academy) covering ideation, prompt management, research, value engineering, requirements, GTM, and training. Architected and am personally building technical stack: React/Next.js frontend, Firebase backend, Cloud Run for compute, MCP (Model Context Protocol) for tool integration, and RAG pipeline for knowledge retrieval. Implemented custom MCP servers connecting Claude to Notion, filesystem, and sequential reasoning tools. Applied MVP approach based on WaivePath market validation learnings.</action>
               <result>Designed complete 7-module product architecture. Flow module in beta. Technical architecture defined for full-stack AI platform on GCP. Validated market through founder interviews. Potential consulting pivot with Vantage module for AI adoption business cases. Platform under active development with 100% ownership.</result>
               <tags>
                 <domain ref="ai-ml">
@@ -534,7 +534,7 @@
               <situation>Digital transformation increasingly owned by business leaders rather than IT. Google Cloud sales teams lacked industry knowledge to engage business executives. No unified methodology existed across previously siloed enablement teams.</situation>
               <task>Build and manage largest cross-functional program of career to develop industry business architecture content enabling sales teams to engage business executives.</task>
               <action>Managed program with 88 contributors across 10 workstream teams and 3 cross-functional teams covering 12 industries. Engaged Accenture for 3-month consulting to develop initial bill-of-materials for 6 industries including trends, value chains, capability maps, metrics, maturity models, and data models. Created internal website to surface content. Launched at global sales conference and recruited volunteers. Partnered with Distinguished Engineer for executive sponsorship. Added McKinsey persona research and expanded to 12 industries. Developed unified engagement model based on design thinking. Launched 20% project to recruit Technical Program Managers.</action>
-              <result>Delivered comprehensive business architecture content for 12 industries with 6 reference use cases. Managed 88 contributors without direct authority using granular tasks, two-week sprints, and peer recognition. Doubled traffic to industry enablement content. Program became basis for Principal Architect Level 300 accreditation. Unified methodology adopted across previously siloed teams.</result>
+              <result>Delivered comprehensive business architecture content for 12 industries with 6 reference use cases. Led 88 contributors across 10 workstreams without direct authority—coordinated through granular task breakdown, two-week sprints, and peer recognition. Doubled traffic to industry enablement content. Program became basis for Principal Architect Level 300 accreditation standard (still in use). Unified methodology adopted across previously siloed teams.</result>
               <tags>
                 <domain ref="program-management">
                   <skill>Cross-functional leadership</skill>
@@ -666,10 +666,10 @@
             </activity>
 
             <activity id="google-2018-stratozone" type="strategic">
-              <situation>Google Cloud Engineering did not want to develop discovery/assessment capabilities internally. Group Product Manager for Compute wanted tooling to support VM migrations and supplement Velostrata. Acquisition was preferred path over internal development.</situation>
+              <situation>Google Cloud Engineering preferred acquiring discovery/assessment capabilities rather than building internally. Group Product Manager for Compute needed tooling to support VM migrations. Multiple acquisition candidates existed (CloudPhysics, Stratozone) requiring technical evaluation and strategic recommendation.</situation>
               <task>Provide subject matter expert consultation on acquisition targets and participate in due diligence and negotiations.</task>
-              <action>Served as SME for GPM evaluating acquisition options including CloudPhysics and Stratozone. Conducted analysis and due diligence on multiple partners. Recommended Stratozone as most capable platform with breadth for enterprise needs. Actively participated in meetings and negotiations with Stratozone leadership. Maintained strong relationship with Stratozone CEO throughout process.</action>
-              <result>Stratozone acquired by Google Cloud in 2020 based on recommendation and due diligence. Product rolled into Google Cloud Platform and became Google Cloud Migration Center. Created seamless discovery to migration solution through Stratozone-Velostrata integration.</result>
+              <action>Served as subject matter expert advising Group Product Manager on acquisition candidates. Conducted build-vs-buy analysis and technical due diligence comparing CloudPhysics and Stratozone capabilities. Authored recommendation for Stratozone based on enterprise breadth and integration potential with Velostrata. Participated in vendor negotiations alongside GPM. Maintained direct relationship with Stratozone CEO that facilitated deal progression.</action>
+              <result>Stratozone acquired by Google Cloud (2020). Recommendation contributed to acquisition decision. Product became Google Cloud Migration Center—still in production today. Created seamless discovery-to-migration solution through Stratozone-Velostrata integration. Key proof point: "I build things that last even when my role doesn't."</result>
               <tags>
                 <domain ref="value-engineering">
                   <skill>Business case development</skill>
@@ -886,7 +886,7 @@
             <activity id="microsoft-2012-scripps" type="strategic">
               <situation>Scripps Networks owned valuable brands including HGTV, Food Network, DIY Network, and Travel Channel. Windows 8 launch approaching with need for major showcase applications. Brand managers had authority over app decisions.</situation>
               <task>Secure Scripps Networks brands for Windows Phone, Windows 8, and Xbox platforms.</task>
-              <action>Secured speaking slot at executive briefing. Met with COO Mark Hale who was supportive but deferred to brand managers. COO arranged meeting with CEO Ken Lowe at CES Las Vegas. Secured CEO support for Food Network app on Windows/Windows Phone. Faced timeline pressure with only few months to deliver and insufficient developer resources. Personally wrote much of Windows 8 application in C# with Windows libraries alongside technical evangelist colleague. Learned new Windows Runtime (WinRT) platform while delivering under deadline.</action>
+              <action>Secured speaking slot at executive briefing. Met COO who arranged CEO meeting at CES Las Vegas. Secured CEO support for Food Network app on Windows/Windows Phone. Faced timeline pressure with months to deliver and insufficient developer resources. Personally coded significant portions of Windows 8 application in C# using WinRT APIs—learned new platform while delivering under deadline. Collaborated with technical evangelist colleague on architecture and remaining components.</action>
               <result>Food Network app became one of five major showcase applications for Windows 8 launch. Delivered under timeline pressure by personally coding significant portion of application. Demonstrated ability to combine business development with technical delivery.</result>
               <tags>
                 <domain ref="business-development">
@@ -968,7 +968,7 @@
               <situation>Tribune board asking about digital mobile strategy after iPad launch. Steve Gable (CIO promoted to EVP for Tribune Digital) sought mobile strategy guidance. Windows/Windows Phone had less than 1% market share requiring compelling case to bet on Windows.</situation>
               <task>Develop comprehensive mobile strategy for Tribune properties to position Windows as strategic platform choice.</task>
               <action>Conducted deep industry research into advertising and distribution business. Gathered key insights and datapoints. Built lightweight prototype showing potential experience. Developed comprehensive vision encompassing all Tribune properties: newspapers, WGN-TV video/audio, LA Times movie/sports data, other Tribune businesses. Strategy so compelling that within one week Steve Gable introduced to Tribune CEO. Presented e-reader strategy to CEO who revealed planned tablet device development.</action>
-              <result>Identified $3.3B opportunity (11M subscribers at $300 BOM for tablet devices). Connected Tribune with Windows product team, OEM/ODM team for hardware, and Microsoft Advertising for ad inventory. Lost Windows tablet deal due to Windows tablet performance but won major Azure deal and advertising partnership. Recognized with Gold Club Nomination (2012), three consecutive Top Contributor Awards, and MGX Best in Class Field Execution (2013).</result>
+              <result>Identified $3.3B market opportunity (11M Tribune subscribers × $300 tablet BOM). Capability demonstration led to CEO access within one week of initial EVP meeting. Connected Tribune with Windows, OEM/ODM, and Advertising teams. Windows tablet deal lost due to platform performance, but relationship yielded Azure Content Cloud deal ($1.5M annual savings) and advertising partnership. Recognition: Gold Club Nomination (2012), three consecutive Top Contributor Awards, MGX Best in Class Field Execution (2013).</result>
               <tags>
                 <domain ref="business-development">
                   <skill>C-level engagement</skill>
