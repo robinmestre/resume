@@ -5,7 +5,7 @@
   For identity and credentials, reference career-profile.xml
   Last updated: 2026-01-13
 -->
-<career-positions version="1.0" last-updated="2026-01-13">
+<career-positions version="1.0" last-updated="2026-01-15">
 
   <!-- Cross-reference for identity/credentials -->
   <reference file="career-profile.xml" sections="identity,credentials,keywords"/>
@@ -23,7 +23,7 @@
         <situation>McDonald's lacked comprehensive enterprise AI architecture to guide technology investments across 40,000+ restaurant locations globally, consumer platforms, and internal business functions.</situation>
         <task>Design target state architecture for enterprise AI platform on Google Cloud Platform covering all layers from user interface to governance.</task>
         <action>Designed 10-layer architecture (Interface, Agent Orchestration, Agent Runtime, Tools/Functions, Models, Knowledge/Data, MLOps/AIOps, Infrastructure, AI Developer Experience, Governance). Defined three-platform model. Made key decisions on A2A protocol, MCP, Kafka, multi-model strategy.</action>
-        <result>Delivered 10-layer target state AI platform architecture. Created 45+ standardized artifacts. Architecture adopted as organizational standard.</result>
+        <result>Designed 10-layer enterprise AI platform architecture endorsed by CIO as McDonald's strategic technical direction; implementation now underway. Created 45+ standardized artifacts.</result>
         <tags>
           <domain ref="enterprise-architecture"><skill>Target state architecture</skill><technology>TOGAF</technology></domain>
           <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>A2A Protocol</technology><technology>MCP</technology></domain>
@@ -33,9 +33,9 @@
 
       <activity id="mcd-2024-usecases" type="strategic">
         <situation>McDonald's business strategy team developing enterprise AI strategy but lacked comprehensive view of AI opportunities across 8 global business functions.</situation>
-        <task>Lead technology strategy portion of enterprise AI strategy. Research AI opportunities and identify reusable architecture patterns.</task>
-        <action>Researched and authored 10 AI megatrend papers using AI-assisted synthesis. Analyzed each function to identify AI use cases. Mapped use cases to value streams.</action>
-        <result>Identified 325 AI use cases across 8 business functions. Defined 22 reusable architecture patterns. Delivered 10 megatrend papers.</result>
+        <task>Co-lead AI opportunity discovery workshops and identify reusable architecture patterns.</task>
+        <action>Co-led AI opportunity discovery across 8 business functions through 16 workshops (2 per function) as core team member. Researched and authored 10 AI megatrend papers. Synthesized workshop findings to identify common patterns.</action>
+        <result>Co-led discovery through 16 workshops; synthesized 325 use cases into 22 reusable architectural patterns, 10 of which are now submitted for funding. Delivered 10 megatrend papers.</result>
         <tags>
           <domain ref="ai-ml"><skill>Use case analysis</skill><technology>Gemini</technology><technology>Claude</technology></domain>
           <domain ref="enterprise-architecture"><skill>Value stream mapping</skill></domain>
@@ -43,10 +43,16 @@
       </activity>
 
       <activity id="mcd-2024-agents" type="technical">
-        <situation>Architecture team needed tools to automate reviews and provide decision support across complex enterprise systems.</situation>
-        <task>Develop AI-powered agents to automate architecture tasks and provide analytical insights.</task>
-        <action>Personally developed 4 specialized AI agents now in production: GenAI Architecture Assistant, Decision Advisor, Current State Researcher, Business Architecture Modeler. Currently building Global Program Management Agent.</action>
-        <result>Built and deployed 4 AI agents running in production. Agents provide automated, repeatable analysis reducing manual architecture assessment effort. Fifth agent in development.</result>
+        <technical-calibration>
+          <tools>Copilot Studio (low-code), Power Automate (low-code), Rovo (low-code)</tools>
+          <scope>Practical automation for architecture team, decision support for leadership</scope>
+          <not>Distributed systems engineering, production-scale agent deployment, custom code development</not>
+          <positioning>Applied AI for business value, not deep technical engineering. Demonstrates ability to deliver quick wins with appropriate tools.</positioning>
+        </technical-calibration>
+        <situation>Senior leadership needed tools to evaluate AI investment business cases; architecture team needed automated research capabilities.</situation>
+        <task>Develop AI-powered decision support and automation tools for senior leadership and architecture team.</task>
+        <action>Built decision support tool (Decision Advisor) used by senior leadership (VP through CIO) to interrogate central initiative tracking repository. Developed 3 additional agents using Copilot Studio and Power Automate: GenAI Architecture Assistant, Current State Researcher, Business Architecture Modeler. Currently building Global Program Management Agent.</action>
+        <result>Built decision support tool used by senior leadership (VP through CIO) to evaluate AI investment business cases. Deployed 3 additional agents supporting architecture team. Fifth agent in development.</result>
         <tags>
           <domain ref="ai-ml"><skill>Multi-agent systems</skill><skill>RAG pipelines</skill></domain>
         </tags>
@@ -61,6 +67,7 @@
           <domain ref="enterprise-architecture"><skill>Architecture operating model</skill><technology>TOGAF</technology><technology>BIZBOK</technology></domain>
           <domain ref="six-sigma"><skill>Process improvement</skill></domain>
         </tags>
+        <permanence status="active" years="0+">Adopted as McDonald's architecture standard</permanence>
       </activity>
 
       <activity id="mcd-2024-amazon" type="strategic">
@@ -76,13 +83,14 @@
 
       <activity id="mcd-2024-gcpchamps" type="leadership">
         <situation>McDonald's migrating to GCP but workforce lacked cloud skills. Need for structured training program.</situation>
-        <task>Design and support cloud training program to accelerate GCP adoption.</task>
-        <action>Designed GCP training program structure. Coordinated certification paths. Supported implementation and tracked metrics.</action>
-        <result>154 direct participants, 100 certifications, 166 pull-through employees (2X effect), 732 courses completed (7X rate), 2,249 labs passed (6X increase). CIO recognition.</result>
+        <task>Design and lead cloud training program to accelerate GCP adoption.</task>
+        <action>Designed and led comprehensive GCP Champs training program. Coordinated certification paths. Led implementation and tracked metrics.</action>
+        <result>Designed and led GCP Champs: 154 participants, 100 certifications, 7X completion rate vs. baseline. 166 pull-through employees (2X effect). Program praised by CIO; being integrated into Global IT Tech Academy.</result>
         <tags>
           <domain ref="program-management"><skill>Training program design</skill></domain>
           <domain ref="cloud-platforms"><technology>Google Cloud Platform</technology></domain>
         </tags>
+        <permanence status="active" years="0+">Being integrated into Global IT Tech Academy</permanence>
       </activity>
     </position>
 
@@ -95,7 +103,7 @@
         <situation>Sales professionals lacked resources to learn prompt engineering and apply AI to sales best practices.</situation>
         <task>Lead product development and engineering for sales enablement platform.</task>
         <action>Architected full-stack platform (React/Next.js, Firebase, Cloud Run, Stripe). Built 8-agent content production system with Claude and Gemini. Created 50+ articles, podcasts, prompts.</action>
-        <result>Launched platform. Delivered 50+ articles, podcasts, 50-60 prompts. Built 8-agent system. Limited traction due to wrong target segment.</result>
+        <result>Built and shipped AI-powered sales enablement platform: 8-agent content production system, React/Next.js frontend, Firebase backend, Stripe payments. Limited commercial traction revealed GTM gaps—built for salespeople who don't buy learning products. Applying lessons to Agentient.</result>
         <tags>
           <domain ref="software-development"><technology>React</technology><technology>Next.js</technology><technology>Firebase</technology></domain>
           <domain ref="ai-ml"><skill>Multi-agent systems</skill><technology>Claude</technology><technology>Gemini</technology></domain>
@@ -103,10 +111,13 @@
       </activity>
 
       <activity id="principio-2024-agentient" type="strategic">
+        <technical-depth-note>
+          Most sophisticated technical work in current portfolio. Custom MCP servers (Python), multi-agent orchestration, RAG pipeline, cross-platform context management. Contrasts with McDonald's low-code work—demonstrates range from lightweight automation (Copilot Studio) to custom system architecture (Python, MCP, Firebase). This is the primary evidence for "builder-architect hybrid" claim when technical depth is questioned.
+        </technical-depth-note>
         <situation>Startup founders lack AI tools providing compounding intelligence throughout product development lifecycle.</situation>
         <task>Design AI-first B2B SaaS platform providing AI co-pilot capabilities for startups.</task>
-        <action>Designed 7-module suite. Personally building stack: React/Next.js, Firebase, Cloud Run, MCP for tool integration, RAG pipeline. Implemented custom MCP servers connecting Claude to Notion and filesystem. Applied MVP approach from WaivePath learnings.</action>
-        <result>Designed 7-module architecture. Flow in beta. Validated market through interviews. Potential consulting pivot with Vantage module.</result>
+        <action>Designed 7-module suite. Personally building stack: Python, Cloud Run, Firebase, MCP for tool integration, RAG pipeline. Implemented custom MCP servers connecting Claude to Notion and filesystem. Developed multi-agent orchestration system. Applied MVP approach from WaivePath learnings.</action>
+        <result>Building AI co-founder platform with multi-agent orchestration, MCP server integration, and cross-platform context management. Flow module in early beta, acquiring users. Technical work informs enterprise AI architecture consulting. 100% ownership.</result>
         <tags>
           <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>Agent Development Kit</technology></domain>
           <domain ref="software-development"><technology>React</technology><technology>Firebase</technology></domain>
@@ -118,6 +129,7 @@
     <position id="google-2021" company="Google Cloud" type="previous">
       <title>Principal Program Manager</title>
       <dates start="2019-12" end="2023-03"/>
+      <departure-context>Laid off in 2023 reduction; had back-to-back Exceeds Expectations ratings in prior two performance cycles. Team was deprioritized, not performance.</departure-context>
 
       <activity id="google-2021-iba-program" type="leadership">
         <situation>Sales teams lacked industry knowledge to engage business executives. No unified methodology across siloed enablement teams.</situation>
@@ -128,6 +140,7 @@
           <domain ref="program-management"><skill>Cross-functional leadership</skill><skill>Volunteer coordination</skill></domain>
           <domain ref="enterprise-architecture"><skill>Capability modeling</skill></domain>
         </tags>
+        <permanence status="active" years="3+">Became Level 300 accreditation standard—still in use</permanence>
       </activity>
 
       <activity id="google-2020-ai-content" type="technical">
@@ -167,17 +180,19 @@
           <domain ref="value-engineering"><skill>TCO analysis</skill><skill>Contract negotiation</skill><technology>Stratozone</technology></domain>
           <domain ref="program-management"><skill>Global program execution</skill></domain>
         </tags>
+        <permanence status="adopted" years="6+">Program structure adopted globally</permanence>
       </activity>
 
       <activity id="google-2018-stratozone" type="strategic">
         <situation>Google Cloud Engineering preferred acquisition over internal development for discovery/assessment capabilities. GPM for Compute wanted tooling to support migrations.</situation>
-        <task>Provide SME consultation on acquisition targets. Participate in due diligence and negotiations.</task>
-        <action>Served as SME advising GPM on acquisition candidates. Conducted build-vs-buy analysis and technical due diligence. Authored recommendation for Stratozone. Participated in vendor negotiations. Maintained CEO relationship facilitating deal.</action>
-        <result>Stratozone acquired by Google Cloud (2020). Recommendation contributed to decision. Became Google Cloud Migration Center—still in production today. Created seamless discovery-to-migration solution.</result>
+        <task>Serve as subject matter expert for acquisition evaluation; provide recommendation on which company to acquire.</task>
+        <action>Served as SME for Stratozone acquisition evaluation. Conducted build-vs-buy analysis and technical due diligence. Evaluated competing vendors and provided recommendation that informed acquisition decision—if recommendation had been negative, acquisition would not have proceeded. Participated in vendor negotiations. Maintained CEO relationship facilitating deal.</action>
+        <result>Served as SME for Google Cloud's Stratozone acquisition (closed 2020); provided recommendation that informed acquisition decision. Product became Google Cloud Migration Center—still in production today.</result>
         <tags>
           <domain ref="value-engineering"><technology>Stratozone</technology><technology>Google Cloud Migration Center</technology></domain>
           <domain ref="business-development"><skill>Deal negotiation</skill></domain>
         </tags>
+        <permanence status="production" years="7+">Became Google Cloud Migration Center—still in production</permanence>
       </activity>
     </position>
 
@@ -195,6 +210,7 @@
           <domain ref="technology-evangelism"><skill>Executive presentations</skill><skill>Public speaking</skill></domain>
           <domain ref="cloud-platforms"><skill>Cloud security</skill><technology>Google Cloud Platform</technology></domain>
         </tags>
+        <permanence status="active" years="8+">Security Specialist role became part of Customer Engineer career ladder</permanence>
       </activity>
 
       <activity id="google-2016-highland" type="technical">
@@ -265,7 +281,7 @@
         <situation>Tribune board asking about digital mobile strategy after iPad launch. Windows had less than 1% share requiring compelling case.</situation>
         <task>Develop comprehensive mobile strategy for Tribune to position Windows as strategic platform.</task>
         <action>Conducted deep industry research (advertising, distribution). Built prototype. Developed vision encompassing all Tribune properties. Presented to CEO within one week of Steve Gable intro.</action>
-        <result>Identified $3.3B market opportunity (11M subscribers × $300 BOM). Capability demo led to CEO access within 1 week. Windows tablet lost to platform issues, but relationship yielded Azure Content Cloud deal ($1.5M savings). Recognition: Gold Club, 3x Top Contributor, MGX Best in Class.</result>
+        <result>Identified $3.3B tablet partnership opportunity through self-initiated market analysis; secured CEO presentation within weeks. Windows tablet deal lost to platform issues outside control, but converted relationship into Azure partnership with $1.5M annual savings. Recognition: Gold Club, 3x Top Contributor, MGX Best in Class.</result>
         <tags>
           <domain ref="business-development"><skill>C-level engagement</skill><skill>Consultative selling</skill></domain>
           <domain ref="technology-evangelism"><skill>Thought leadership</skill></domain>

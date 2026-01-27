@@ -5,7 +5,7 @@
   For full STAR activities, reference career-profile.xml
   Last updated: 2026-01-13
 -->
-<career-summary version="1.0" last-updated="2026-01-13">
+<career-summary version="1.0" last-updated="2026-01-15">
 
   <!-- HIGH ATTENTION ZONE: Identity and Contact -->
   <identity>
@@ -27,25 +27,55 @@
     <career-span years="35">1989-Present</career-span>
   </identity>
 
-  <!-- POSITIONING: Builder-Architect Hybrid -->
+  <!-- POSITIONING: Zero-to-One Program Builder with Permanence Architecture -->
   <positioning>
-    <headline>AI leader who builds strategy AND the platforms to execute it</headline>
+    <headline>Zero-to-One AI Program Builder: I architect programs for permanence</headline>
+    <profile-hierarchy>
+      <primary score="8.5/10">Profile 2: Zero-to-One Builder—Strongest evidence, clearest differentiation, manageable gaps</primary>
+      <supporting score="7.5/10">Profile 1: AI Process Transformation—Process engineering + pattern recognition at scale</supporting>
+      <supporting score="7.0/10">Profile 3: Applied AI Architecture—Design + lightweight implementation capability</supporting>
+    </profile-hierarchy>
     <differentiators>
-      <diff>Architect who codes: 4 McDonald's agents in production, WaivePath 8-agent system, Food Network Windows 8 app</diff>
-      <diff>Zero-to-one builder: Stratozone became Migration Center, Value Engineering 10X growth, accreditation standards still in use</diff>
-      <diff>Rapid executive engagement: Tribune CEO access in 1 week, AON competitive win, McDonald's CIO/VP adoption</diff>
+      <diff>Permanence architecture: 6 programs across 3 companies, all still running 3-7+ years after departure—Stratozone became Migration Center, Industry BA became accreditation standard</diff>
+      <diff>Builder-architect hybrid: Decision support tool used by VP-CIO, WaivePath 8-agent system, Food Network Windows 8 app (85% of code)</diff>
+      <diff>Zero-to-one builder: SME for Stratozone acquisition (now Migration Center), Value Engineering 10X growth, accreditation standards still in use</diff>
+      <diff>Rapid executive engagement: Tribune CEO access in weeks, AON competitive win vs Google, McDonald's CIO/VP adoption</diff>
+      <diff>Builder-not-operator: Creates things that become teams, then hires leaders—intentional pattern selecting OUT of management</diff>
     </differentiators>
   </positioning>
 
+  <target-titles>
+    <primary>Senior Director, AI Innovation &amp; Transformation</primary>
+    <rationale>Signals 0-1 capability ("Innovation"), incorporates architecture ("Transformation"), appropriate for Google/Microsoft pedigree</rationale>
+    <profile-2-targets description="Zero-to-One Builder">
+      <title>Senior Director AI Innovation</title>
+      <title>Director Strategic Initiatives</title>
+      <title>Principal Enterprise Programs</title>
+      <title>Founder-in-Residence / Innovation Fellow</title>
+    </profile-2-targets>
+    <profile-1-targets description="AI Process Transformation">
+      <title>Director Applied AI Strategy</title>
+      <title>Principal AI Strategy &amp; Architecture</title>
+      <title>Head of AI Process Transformation</title>
+    </profile-1-targets>
+    <profile-3-targets description="Applied AI Architecture">
+      <title>Director Applied AI</title>
+      <title>AI Solutions Architect</title>
+      <title>Head of AI Enablement</title>
+    </profile-3-targets>
+  </target-titles>
+
   <!-- KEY METRICS: Quick scanning -->
   <key-metrics>
-    <metric id="ai-use-cases" value="325" context="McDonald's AI strategy across 8 business functions"/>
-    <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering, 9 months"/>
-    <metric id="largest-opportunity" value="$3.3B" context="Microsoft/Tribune opportunity (capability demo led to Azure win)"/>
-    <metric id="people-trained" value="784+" context="GCP Champs + competitive intel programs"/>
-    <metric id="program-contributors" value="88" context="Google Cloud Industry Business Architecture"/>
+    <metric id="stratozone-acquisition" value="Google Cloud Migration Center" context="SME for Stratozone acquisition; product still in production"/>
+    <metric id="pipeline-generated" value="$1.5B" context="Google Cloud Value Engineering scaled from $150M baseline (10X), 9 months"/>
+    <metric id="decision-support-tool" value="VP-to-CIO adoption" context="Built decision support tool used by senior leadership for AI investment decisions"/>
+    <metric id="ai-patterns-funded" value="10 patterns" context="Synthesized 325 use cases into 22 patterns; 10 submitted for funding"/>
+    <metric id="gcp-champs" value="154 participants, 100 certs" context="Designed and led GCP Champs; 7X completion rate"/>
+    <metric id="program-contributors" value="88" context="Led Google Cloud Industry Business Architecture program"/>
+    <metric id="tribune-azure" value="$1.5M savings" context="Converted Tribune relationship into Azure partnership"/>
     <metric id="architecture-artifacts" value="45+" context="McDonald's architecture operating model"/>
-    <metric id="internal-investment" value="$2.5M" context="Microsoft strategic partnerships"/>
+    <metric id="program-survival" value="100%" context="6 programs still running 3-7+ years post-departure across Google and McDonald's"/>
   </key-metrics>
 
   <!-- EXPERTISE DOMAINS (summary only) -->
@@ -76,25 +106,25 @@
       <company>McDonald's Corporation</company>
       <title>Principal AI Architect (Generative AI)</title>
       <dates start="2024-03" end="present"/>
-      <highlights>10-layer AI platform architecture, 325 use cases, 45+ artifacts</highlights>
+      <highlights>Decision support tool for VP-CIO, 10-layer architecture endorsed by CIO, 22 patterns (10 funded), GCP Champs (154 participants, 100 certs)</highlights>
     </position>
     <position id="principio-2023" type="concurrent">
       <company>Principio Group</company>
       <title>Founder &amp; Principal</title>
       <dates start="2023-04" end="present"/>
-      <highlights>WaivePath sales enablement platform, Agentient AI co-founder platform</highlights>
+      <highlights>Agentient: multi-agent platform in early beta; WaivePath: shipped 8-agent system, learned GTM lessons</highlights>
     </position>
     <position id="google-2021" type="previous">
       <company>Google Cloud</company>
       <title>Principal Program Manager</title>
       <dates start="2019-12" end="2023-03"/>
-      <highlights>88 contributors, 12 industries, 85% content production reduction</highlights>
+      <highlights>Led 88 contributors across 12 industries, 85% content production reduction. Laid off 2023; had back-to-back Exceeds ratings.</highlights>
     </position>
     <position id="google-2018" type="previous">
       <company>Google Cloud</company>
       <title>Head of Value Engineering</title>
       <dates start="2018-01" end="2019-11"/>
-      <highlights>Stratozone acquisition (now Migration Center), $1.5B pipeline in 9 months (10X growth)</highlights>
+      <highlights>SME for Stratozone acquisition (now Migration Center), scaled pipeline $150M→$1.5B (10X)</highlights>
     </position>
     <position id="google-2016" type="previous">
       <company>Google Cloud</company>
@@ -124,7 +154,7 @@
       <company>Microsoft Corporation</company>
       <title>Senior Platform Strategy Advisor</title>
       <dates start="2008-02" end="2012"/>
-      <highlights>$3.3B Tribune opportunity identified (led to Azure win), AON competitive win vs Google, $1.5M Azure savings</highlights>
+      <highlights>Won AON vs Google (first major BPOS customer), Tribune Azure partnership ($1.5M savings), CEO access in weeks</highlights>
     </position>
     <position id="microsoft-2006" type="previous">
       <company>Microsoft Corporation</company>
