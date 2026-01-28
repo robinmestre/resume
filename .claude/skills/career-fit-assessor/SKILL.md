@@ -20,7 +20,7 @@ Adversarial career fit analysis using red team/blue team methodology against job
 
 **Before any assessment, verify career data exists:**
 
-1. Check for XML files containing career history in project context or `/mnt/user-data/uploads/`
+1. Check for XML files containing career history in project context or `/experience/`
 2. If no career XML files found:
    - STOP assessment immediately
    - Inform user: "Career fit assessment requires XML files containing your work experience. Please add your career history files to the project or upload them to proceed."

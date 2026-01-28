@@ -59,7 +59,7 @@ Optimize for both. Sacrificing one for the other fails.
 1. **Summary section**: Top 3-5 keywords
 2. **Skills section**: Technical keywords verbatim
 3. **Experience bullets**: Keywords in context
-4. **Job titles**: Add equivalent if your title differs
+4. **Job titles**: Use exact titles from source data—NEVER create "equivalent" titles
 
 ### Keyword Density
 - Top keywords: 2-4% (appears 2-4 times per 100 words)

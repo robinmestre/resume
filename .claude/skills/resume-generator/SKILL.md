@@ -161,6 +161,44 @@ See `references/achievement-frameworks.md` for full guidance.
 - Exact team sizes when known
 - Varied sentence structures
 
+### Factual Integrity (MANDATORY)
+
+All data from XML source files is treated as immutable fact. Wording may be adjusted for flow and keyword optimization, but the underlying facts must not change.
+
+**Protected Facts (NEVER modify):**
+
+| Element | Rule |
+|---------|------|
+| Job titles | Use exact title from XML—no "equivalents" |
+| Company names | Exact spelling from XML |
+| Dates | Exact MM/YYYY from XML |
+| Metrics/results | Numbers must match XML exactly |
+| Team sizes | Exact counts from XML |
+| Project/product names | Verbatim from XML |
+| Scope descriptors | "enterprise-wide", "global" etc. only if in XML |
+
+**Allowed Modifications:**
+
+- Verb substitution (same meaning, different word)
+- Sentence structure variation
+- Condensing (omit details, but don't change remaining facts)
+- Keyword insertion (add context, don't alter facts)
+
+**Prohibited:**
+
+- Inflating metrics (47% → 50%)
+- Expanding scope ("team" → "cross-functional organization")
+- Adding responsibilities not in XML
+- Creating achievements not documented
+- Rounding for readability (keep $892K, don't write $900K)
+
+**Excluded from Resume (interview prep only):**
+
+- `<departure-context>` elements — NEVER include departure reasons on resume
+- `<vulnerability>` elements — for interview preparation only
+- `<reframe>` elements — for interview preparation only
+- Any explanation of why a role ended
+
 ### Precision Metrics Rules
 | Type | Format | Example |
 |------|--------|---------|
@@ -196,6 +234,28 @@ See `references/achievement-frameworks.md` for full guidance.
 - [ ] Standard section headers
 - [ ] No tables, graphics, or text boxes
 - [ ] Dates in parseable format
+
+### Source Validation (MANDATORY)
+
+Before generating final output, validate ALL facts against XML source files:
+
+**Validation Checklist:**
+
+- [ ] Each job title matches `<title>` element exactly
+- [ ] Each company name matches `<company>` element exactly
+- [ ] Each date range matches `<start>` and `<end>` elements exactly
+- [ ] Each metric matches value in `<result>` element exactly
+- [ ] Each team size matches count in source activity
+- [ ] Each project/product name matches `<activity>` or `<initiative>` elements
+
+**Validation Process:**
+
+1. For each Experience entry, identify source `<position>` by matching company + date range
+2. For each bullet, identify source `<activity>` by ID or content match
+3. Verify all numerical claims trace to XML `<result>` elements
+4. Flag any claim without XML source attribution
+
+**If validation fails:** Do NOT generate output. List discrepancies and request correction.
 
 ## Step 7: Produce Output
 
@@ -247,6 +307,7 @@ Provide:
 3. **Coverage gaps**: Requirements without strong evidence
 4. **Authenticity score**: Count of specificity markers
 5. **LinkedIn consistency alert**: Flag any resume/LinkedIn divergence risk
+6. **Source attribution**: For each bullet, note the XML activity ID it derives from
 
 ```
 ⚠️ LinkedIn Consistency Check:

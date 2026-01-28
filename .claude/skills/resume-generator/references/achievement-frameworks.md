@@ -54,12 +54,17 @@ Use ranges when:
 ```
 
 ### The Defensibility Test
-**Rule**: Only use precise metrics you can defend in interview.
+
+**Rule**: Only use metrics that exist in XML source files and can be defended in interview.
 
 Before using a metric, verify:
+
+- [ ] Metric exists verbatim in XML `<result>` element
 - [ ] Can I explain how this was measured?
-- [ ] Can I provide context if asked "how did you arrive at 47.3%?"
+- [ ] Can I provide context if asked "how did you arrive at this number?"
 - [ ] Would I be comfortable if they asked for documentation?
+
+**Hard requirement**: If a number doesn't appear in your XML career data, you cannot use it.
 
 ---
 
