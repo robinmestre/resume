@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-applications last-updated="2026-02-03">
+  <application id="google-applied-ai-fsa-manager-2026">
+    <company>Google Cloud</company>
+    <role>Manager, Applied AI Field Solutions Architect</role>
+    <location>Multiple US locations (NY, Atlanta, Austin, Chicago, Seattle, SF, etc.)</location>
+    <salary-range>$177,000-$263,000 + bonus + equity</salary-range>
+    <date-applied>2026-02-03</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/google-manager-applied-ai-fsa/resume.md</resume-path>
+    <job-url></job-url>
+    <notes>
+      Manager role for Applied AI FSA team. Strong match: 7 years Google Cloud tenure, current agentic AI experience with MCP/Python, $1.5B pipeline achievement, 88-contributor program leadership. Gap: limited direct management (influence-based leadership). REVISED: Leadership + Sales emphasis per user request. Added: Intel TCO partnership, 40+ agents metric, Awards section, Director title for McDonald's.
+    </notes>
+    <keywords-matched>
+      Google Cloud, agentic AI, multi-agent systems, Python, MCP, RAG, enterprise, C-suite, technical leadership, Field Solutions Architect
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+</job-applications>

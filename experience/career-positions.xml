@@ -5,7 +5,7 @@
   For identity and credentials, reference career-profile.xml
   Last updated: 2026-01-13
 -->
-<career-positions version="1.0" last-updated="2026-01-15">
+<career-positions version="1.0" last-updated="2026-02-04">
 
   <!-- Cross-reference for identity/credentials -->
   <reference file="career-profile.xml" sections="identity,credentials,keywords"/>
@@ -15,57 +15,44 @@
 
     <!-- MCDONALD'S: Principal AI Architect -->
     <position id="mcd-2024" company="McDonald's Corporation" type="current">
-      <title>Principal AI Architect (Generative AI)</title>
+      <title>Director, Principal Architect</title>
       <level>Director-equivalent</level>
       <dates start="2024-03" end="present"/>
 
       <activity id="mcd-2024-10layer" type="strategic">
-        <situation>McDonald's lacked comprehensive enterprise AI architecture to guide technology investments across 40,000+ restaurant locations globally, consumer platforms, and internal business functions.</situation>
+        <situation>McDonald's entered into strategic partnership with Google Cloud; key initiative was deploying McDonald's AI platform on Google Cloud to support AI agents and tools.</situation>
         <task>Design target state architecture for enterprise AI platform on Google Cloud Platform covering all layers from user interface to governance.</task>
-        <action>Designed 10-layer architecture (Interface, Agent Orchestration, Agent Runtime, Tools/Functions, Models, Knowledge/Data, MLOps/AIOps, Infrastructure, AI Developer Experience, Governance). Defined three-platform model. Made key decisions on A2A protocol, MCP, Kafka, multi-model strategy.</action>
-        <result>Designed 10-layer enterprise AI platform architecture endorsed by CIO as McDonald's strategic technical direction; implementation now underway. Created 45+ standardized artifacts.</result>
+        <action>Designed 10-layer architecture (Interface, Agent Orchestration, Agent Runtime, Tools/Functions, Models, Knowledge/Data, MLOps/AIOps, Infrastructure, AI Developer Experience, Governance). Defined three-platform model. Made key decisions on Vertex AI Agent Engine, RAG Engine, Cloud Run, Agent Development Kit, Confluent Kafka, Gravitee, A2A protocol, MCP. Analyzed six AI hosting configurations. Compared ServiceNow vs Google Cloud orchestration. Worked with legal on compliance. Created three architecture assistant agents. Collaborated on knowledge graph strategy.</action>
+        <result>Designed 10-layer enterprise AI platform architecture endorsed by CIO as McDonald's strategic technical direction; implementation now underway. AI agents accelerated draft architecture blueprint—zero to draft in four weeks.</result>
         <tags>
-          <domain ref="enterprise-architecture"><skill>Target state architecture</skill><technology>TOGAF</technology></domain>
-          <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>A2A Protocol</technology><technology>MCP</technology></domain>
-          <domain ref="cloud-platforms"><technology>Google Cloud Platform</technology></domain>
+          <domain ref="enterprise-architecture"><skill>Target state architecture</skill></domain>
+          <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>A2A Protocol</technology><technology>MCP</technology><technology>Vertex AI Agent Engine</technology><technology>Vertex AI RAG Engine</technology></domain>
+          <domain ref="cloud-platforms"><technology>Google Cloud Platform</technology><technology>Google Cloud Run</technology></domain>
         </tags>
       </activity>
 
-      <activity id="mcd-2024-usecases" type="strategic">
-        <situation>McDonald's business strategy team developing enterprise AI strategy but lacked comprehensive view of AI opportunities across 8 global business functions.</situation>
-        <task>Co-lead AI opportunity discovery workshops and identify reusable architecture patterns.</task>
-        <action>Co-led AI opportunity discovery across 8 business functions through 16 workshops (2 per function) as core team member. Researched and authored 10 AI megatrend papers. Synthesized workshop findings to identify common patterns.</action>
-        <result>Co-led discovery through 16 workshops; synthesized 325 use cases into 22 reusable architectural patterns, 10 of which are now submitted for funding. Delivered 10 megatrend papers.</result>
+      <activity id="mcd-2024-aistrategy" type="strategic">
+        <situation>CEO mandate dictated formulation of AI strategy for McDonald's to respond to competition, margin pressures, and investor communication needs.</situation>
+        <task>Create business and technology AI strategy for McDonald's.</task>
+        <action>Part of 4-person team organizing 16 workshops (2 per function) over three months with 8 business functions. Authored 10 AI megatrend papers as pre-reads. Leveraged AI to extract and triage 350 ideas from workshop sessions. Analyzed impact/effort, identified architecture patterns. Applied process engineering to analyze value streams. Built business value models. Developed decision support tool for GPMO and three specialized agents using Copilot Studio and Power Automate.</action>
+        <result>Documented 350+ use cases for AI agents. Identified 22 architecture patterns. Secured commitment for 10 initial AI use cases. Delivered 10 megatrend papers informing enterprise AI strategy.</result>
         <tags>
-          <domain ref="ai-ml"><skill>Use case analysis</skill><technology>Gemini</technology><technology>Claude</technology></domain>
-          <domain ref="enterprise-architecture"><skill>Value stream mapping</skill></domain>
-        </tags>
-      </activity>
-
-      <activity id="mcd-2024-agents" type="technical">
-        <technical-calibration>
-          <tools>Copilot Studio (low-code), Power Automate (low-code), Rovo (low-code)</tools>
-          <scope>Practical automation for architecture team, decision support for leadership</scope>
-          <not>Distributed systems engineering, production-scale agent deployment, custom code development</not>
-          <positioning>Applied AI for business value, not deep technical engineering. Demonstrates ability to deliver quick wins with appropriate tools.</positioning>
-        </technical-calibration>
-        <situation>Senior leadership needed tools to evaluate AI investment business cases; architecture team needed automated research capabilities.</situation>
-        <task>Develop AI-powered decision support and automation tools for senior leadership and architecture team.</task>
-        <action>Built decision support tool (Decision Advisor) used by senior leadership (VP through CIO) to interrogate central initiative tracking repository. Developed 3 additional agents using Copilot Studio and Power Automate: GenAI Architecture Assistant, Current State Researcher, Business Architecture Modeler. Currently building Global Program Management Agent.</action>
-        <result>Built decision support tool used by senior leadership (VP through CIO) to evaluate AI investment business cases. Deployed 3 additional agents supporting architecture team. Fifth agent in development.</result>
-        <tags>
-          <domain ref="ai-ml"><skill>Multi-agent systems</skill><skill>RAG pipelines</skill></domain>
+          <domain ref="ai-ml"><skill>AI strategy</skill><skill>Use case analysis</skill><skill>Multi-agent systems</skill><technology>Gemini</technology><technology>Claude</technology><technology>Copilot Studio</technology></domain>
+          <domain ref="value-engineering"><skill>Business value modeling</skill><skill>Impact/effort analysis</skill></domain>
+          <domain ref="program-management"><skill>Workshop facilitation</skill><skill>Cross-functional leadership</skill></domain>
+          <domain ref="technology-evangelism"><skill>Megatrend research</skill><skill>Thought leadership</skill></domain>
         </tags>
       </activity>
 
       <activity id="mcd-2024-opmodel" type="strategic">
         <situation>Following reorganization, architecture function lacked standardized operating model across Solution, Business, Enterprise, Data, and AI domains.</situation>
         <task>Establish comprehensive architecture operating model to standardize practices.</task>
-        <action>Applied Six Sigma SIPOC, SCAMPI/A, BIZBOK, TOGAF. Defined 9 core services, 45 artifacts, 12 services, 14 roles. Mapped 40 value streams.</action>
-        <result>Established operating model covering 5 domains. Created 9 core services, 45 artifacts, 14 role definitions. Mapped 40 value streams.</result>
+        <action>Applied Six Sigma SIPOC, SCAMPI/A, BIZBOK, TOGAF. Defined 9 core services, 45 artifacts, 12 services, 14 roles. Mapped 40 value streams. Used AI to refine services and capture artifact definitions and best practices. Published to Atlassian Confluence for global access.</action>
+        <result>Established operating model covering 5 domains. Created 9 core services, 45 artifacts, 14 role definitions. Mapped 40 value streams. Published to Atlassian Confluence for global architectural organization access.</result>
         <tags>
           <domain ref="enterprise-architecture"><skill>Architecture operating model</skill><technology>TOGAF</technology><technology>BIZBOK</technology></domain>
           <domain ref="six-sigma"><skill>Process improvement</skill></domain>
+          <domain ref="ai-ml"><skill>AI-assisted documentation</skill></domain>
         </tags>
         <permanence status="active" years="0+">Adopted as McDonald's architecture standard</permanence>
       </activity>
@@ -78,6 +65,18 @@
         <tags>
           <domain ref="martech-loyalty"><skill>Loyalty program architecture</skill><skill>Account linking</skill></domain>
           <domain ref="enterprise-architecture"><skill>Capability modeling</skill></domain>
+        </tags>
+      </activity>
+
+      <activity id="mcd-2024-subscription" type="strategic">
+        <situation>McDonald's is developing a subscription service to grow incremental system sales, boost frequency, and deepen brand loyalty, and drive sustained growth in integrated delivery.</situation>
+        <task>Assess subscription service feasibility and evaluate technical solution alternatives.</task>
+        <action>Analyzed impact and technical feasibility of 25 subscription constructs identified by McKinsey. Identified functional and non-functional requirements. Created business capability model with emphasis on payment systems. Produced context diagram mapping technology impact to MarTech stack (mParticle, Braze, SessionM, Dynamic Yield). Constructed vendor assessment framework to evaluate 5 subscription payment vendors.</action>
+        <result>Delivered feasibility report on subscription constructs and detailed vendor assessment with recommended vendor.</result>
+        <tags>
+          <domain ref="martech-loyalty"><skill>Subscription systems</skill><skill>Partner integrations</skill><technology>mParticle</technology><technology>Braze</technology><technology>SessionM</technology><technology>Dynamic Yield</technology></domain>
+          <domain ref="enterprise-architecture"><skill>Capability modeling</skill><skill>Vendor assessment</skill><skill>Context diagrams</skill><skill>Solution evaluation</skill></domain>
+          <domain ref="program-management"><skill>Requirements analysis</skill></domain>
         </tags>
       </activity>
 
@@ -100,27 +99,41 @@
       <dates start="2023-04" end="present"/>
 
       <activity id="principio-2023-waivepath" type="technical">
-        <situation>Sales professionals lacked resources to learn prompt engineering and apply AI to sales best practices.</situation>
-        <task>Lead product development and engineering for sales enablement platform.</task>
-        <action>Architected full-stack platform (React/Next.js, Firebase, Cloud Run, Stripe). Built 8-agent content production system with Claude and Gemini. Created 50+ articles, podcasts, prompts.</action>
-        <result>Built and shipped AI-powered sales enablement platform: 8-agent content production system, React/Next.js frontend, Firebase backend, Stripe payments. Limited commercial traction revealed GTM gaps—built for salespeople who don't buy learning products. Applying lessons to Agentient.</result>
+        <situation>In early 2023, GenAI gold rush but sales teams stuck on basic ChatGPT prompts. Identified gap: lack of specialized sales enablement content combining AI theory with practical execution.</situation>
+        <task>As sole technical founder, build production-ready SaaS platform from scratch with automated content engine producing expert-level material at scale.</task>
+        <action>Architected full-stack platform (React/Next.js, Firebase, Cloud Run, Stripe). Built 8-agent content production system with Claude and Gemini. Created 150+ assets: articles, podcasts, prompts, flashcards. Implemented hybrid parallel/sequential agent orchestration.</action>
+        <result>Technical launch success—full-stack platform with 150+ assets and payment gateway. Market response taught ICP alignment lesson: built 'vitamin' for ICs rather than 'painkiller' for Sales Enablement leaders. Leveraged patterns and GTM insights to pivot strategy for Agentient.</result>
         <tags>
-          <domain ref="software-development"><technology>React</technology><technology>Next.js</technology><technology>Firebase</technology></domain>
-          <domain ref="ai-ml"><skill>Multi-agent systems</skill><technology>Claude</technology><technology>Gemini</technology></domain>
+          <domain ref="cloud-platforms"><skill>Serverless architecture</skill><technology>Google Cloud Run</technology><technology>Firebase</technology><technology>Cloud Functions</technology></domain>
+          <domain ref="software-development"><skill>Full-stack development</skill><skill>SaaS architecture</skill><technology>React</technology><technology>Next.js</technology><technology>Stripe</technology></domain>
+          <domain ref="ai-ml"><skill>Multi-agent systems</skill><skill>AI automation</skill><skill>Content automation at scale</skill><technology>Claude</technology><technology>Gemini</technology></domain>
+          <domain ref="entrepreneurship"><skill>0-to-1 product development</skill><skill>Technical founding</skill><skill>MVP execution</skill><skill>ICP analysis</skill><skill>Pivot strategy</skill></domain>
         </tags>
       </activity>
 
       <activity id="principio-2024-agentient" type="strategic">
-        <technical-depth-note>
-          Most sophisticated technical work in current portfolio. Custom MCP servers (Python), multi-agent orchestration, RAG pipeline, cross-platform context management. Contrasts with McDonald's low-code work—demonstrates range from lightweight automation (Copilot Studio) to custom system architecture (Python, MCP, Firebase). This is the primary evidence for "builder-architect hybrid" claim when technical depth is questioned.
-        </technical-depth-note>
-        <situation>Startup founders lack AI tools providing compounding intelligence throughout product development lifecycle.</situation>
-        <task>Design AI-first B2B SaaS platform providing AI co-pilot capabilities for startups.</task>
-        <action>Designed 7-module suite. Personally building stack: Python, Cloud Run, Firebase, MCP for tool integration, RAG pipeline. Implemented custom MCP servers connecting Claude to Notion and filesystem. Developed multi-agent orchestration system. Applied MVP approach from WaivePath learnings.</action>
-        <result>Building AI co-founder platform with multi-agent orchestration, MCP server integration, and cross-platform context management. Flow module in early beta, acquiring users. Technical work informs enterprise AI architecture consulting. 100% ownership.</result>
+        <situation>Pre-seed founders face 90%+ failure rate due to weak PMF validation and underdeveloped GTM strategies—amplified by limited resources and no access to experienced product advisors.</situation>
+        <task>Create open resources and AI-assisted tooling to help early-stage founders systematically validate PMF and execute effective launches, democratizing product development expertise.</task>
+        <action>Developing AI-powered platform guiding founders through structured PMF assessment, research synthesis, and GTM planning. Built lightweight frameworks adapting enterprise methodologies for resource-constrained contexts. Applying modern AI stack (agentic workflows, multi-model orchestration) to reduce expertise gap.</action>
+        <result>Platform in development; early users validating core PMF assessment workflows.</result>
         <tags>
-          <domain ref="ai-ml"><skill>AI platform architecture</skill><technology>Agent Development Kit</technology></domain>
-          <domain ref="software-development"><technology>React</technology><technology>Firebase</technology></domain>
+          <domain ref="ai-ml"><skill>Agentic workflows</skill><skill>Multi-model orchestration</skill><technology>Claude</technology><technology>Gemini</technology></domain>
+          <domain ref="entrepreneurship"><skill>Product-market fit validation</skill><skill>GTM strategy</skill><skill>Founder enablement</skill><skill>Lean methodology</skill></domain>
+          <domain ref="value-engineering"><skill>Framework development</skill><skill>Methodology adaptation</skill></domain>
+        </tags>
+      </activity>
+
+      <activity id="principio-2024-advisory" type="strategic">
+        <situation>Research firms and early-stage startups require specialized expertise in enterprise AI, cloud strategy, and GTM execution at the intersection of deep technical knowledge and business strategy.</situation>
+        <task>Provide expert guidance on AI/cloud architecture decisions, market dynamics, and organizational best practices to inform investment research and product strategy.</task>
+        <action>Advised AlphaInsights on workflow automation, Tempus Research on LLM API provider market share, and GLG on cloud provider technology, organizational best practices, and sales/GTM functions. Served on MobiusEngine.ai advisory board.</action>
+        <result>Completed 8 paid advisory engagements across 3 firms. Inputs incorporated into published market research and product roadmaps.</result>
+        <tags>
+          <domain ref="competitive-intelligence"><skill>Market analysis</skill><skill>Vendor landscape assessment</skill><skill>Technology due diligence</skill></domain>
+          <domain ref="ai-ml"><skill>AI strategy</skill><skill>LLM ecosystem analysis</skill></domain>
+          <domain ref="cloud-platforms"><skill>Cloud strategy</skill><skill>Cloud provider comparison</skill><technology>GCP</technology><technology>Azure</technology><technology>AWS</technology></domain>
+          <domain ref="sales-enablement"><skill>GTM strategy</skill><skill>Sales organization design</skill></domain>
+          <domain ref="technology-evangelism"><skill>Thought leadership</skill><skill>Expert advisory</skill></domain>
         </tags>
       </activity>
     </position>
@@ -172,9 +185,9 @@
       <dates start="2018-01" end="2019-11"/>
 
       <activity id="google-2018-pipeline" type="strategic">
-        <situation>Value Engineering nascent (~18 months), $150M assessed business. Fragmented initiatives (Stratozone, CloudPhysics, Velostrata) without unified strategy.</situation>
+        <situation>Value Engineering nascent (~18 months), $150M assessed business. Parallel initiatives (Value Engineering using Stratozone and Intel partnership in partner organization using CloudPhysics) without unified strategy.</situation>
         <task>Develop and scale global value engineering strategy. Consolidate fragmented initiatives.</task>
-        <action>Built Global Assessment and Planning Program consolidating Stratozone, CloudPhysics, Velostrata. Renegotiated Stratozone contract for free capabilities. Reinvested savings into 20-city global training tour. Trained ~1/3 of global sales force.</action>
+        <action>Secured ownership of Intel partnership and rolled up into one program. Built Global Assessment and Planning Program consolidating Stratozone, CloudPhysics, Velostrata. Renegotiated Stratozone contract for free capabilities. Reinvested savings into 20-city global training tour. Trained ~1/3 of global sales force.</action>
         <result>Generated $1.5B pipeline in 9 months (10X from $150M). Improved forecast accuracy 60%. Reduced sales cycle 70%. Increased VM migration win rate 5%.</result>
         <tags>
           <domain ref="value-engineering"><skill>TCO analysis</skill><skill>Contract negotiation</skill><technology>Stratozone</technology></domain>
