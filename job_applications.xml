@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<job-applications last-updated="2026-02-03">
+<job-applications last-updated="2026-02-06">
   <application id="google-applied-ai-fsa-manager-2026">
     <company>Google Cloud</company>
     <role>Manager, Applied AI Field Solutions Architect</role>
@@ -14,6 +14,24 @@
     </notes>
     <keywords-matched>
       Google Cloud, agentic AI, multi-agent systems, Python, MCP, RAG, enterprise, C-suite, technical leadership, Field Solutions Architect
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
+  <application id="forrester-principal-analyst-2026">
+    <company>Forrester Research</company>
+    <role>Principal Analyst, AI-Enhanced Software Development</role>
+    <location>US (Remote eligible, 30% travel)</location>
+    <salary-range>Not specified (base salary range inclusive of all US geographies)</salary-range>
+    <date-applied>2026-02-06</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/forrester-principal-analyst/resume.md</resume-path>
+    <job-url></job-url>
+    <notes>
+      Career transition: practitioner to industry analyst. JD explicitly prefers 10+ years software dev leadership (director+). Strong match: AI architecture at McDonald's (350+ use cases, 22 patterns, 10 megatrend papers), research program leadership at Google (88 contributors, 12 industries), advisory work with research firms (8 engagements), conference speaking (RSA, Advisen, AON CTO), vendor evaluation (Stratozone acquisition). Gaps: no formal analyst title (mitigated by JD preference for practitioners), no Forrester Wave experience (mitigated by vendor evaluation work), limited press relationships. Context: Senior/Executive seniority, Executive/Thought Leadership function, Enterprise company type.
+    </notes>
+    <keywords-matched>
+      AI-enhanced software development, research, AI agents, strategy, governance, cost optimization, KPIs, SDLC, consulting, advisory, thought leadership, cross-team collaboration, mentorship, business development, client engagement
     </keywords-matched>
     <excitement-rating>HIGH</excitement-rating>
   </application>
