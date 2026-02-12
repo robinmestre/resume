@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<job-applications last-updated="2026-02-06">
+<job-applications last-updated="2026-02-12">
+  <application id="cvs-health-principal-enterprise-architect-2026">
+    <company>CVS Health</company>
+    <role>Principal Enterprise Architect</role>
+    <location>US (not specified)</location>
+    <salary-range>$144,200-$288,400 + bonus + equity</salary-range>
+    <date-applied>2026-02-11</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/cvs-health-principal-enterprise-architect/resume.md</resume-path>
+    <job-url></job-url>
+    <notes>
+      Principal Enterprise Architect driving innovation and platform strategy. Strong match: 20+ years enterprise architecture (since Allstate 2004), current AI platform design at McDonald's (10-layer architecture, CIO endorsement), 15+ years cloud platforms (GCP, Azure), complex integration experience (APIs, microservices, event-driven with Kafka/A2A/MCP), architecture governance (TOGAF, BIZBOK, Six Sigma), mentoring at scale (154 GCP Champs participants, 88 IBA program contributors). Key differentiator: hands-on builder-architect hybrid who designs target state AND builds working systems. Gaps: C4 model not explicitly claimed (mitigated by ArchiMate and equivalent diagram types—context, container, component); BComm not CS degree (mitigated by Diploma in Datametrics in Computer Science); no direct healthcare industry experience (mitigated by Allstate Financial adjacency, regulatory/compliance work, enterprise scale). Context: Senior/Executive seniority, Technical function, Enterprise company type.
+    </notes>
+    <keywords-matched>
+      enterprise architecture, AI, Agentic AI, GenAI, APIs, microservices, event-driven architecture, cloud, target state architecture, north star architecture, architecture governance, standards, best practices, mentoring, coaching, POC, starter code, collaboration, influencing, coalition-building, non-functional requirements, performance engineering, data platforms, hybrid solutions, Agile, C4 equivalent
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
   <application id="google-applied-ai-fsa-manager-2026">
     <company>Google Cloud</company>
     <role>Manager, Applied AI Field Solutions Architect</role>
@@ -32,6 +50,60 @@
     </notes>
     <keywords-matched>
       AI-enhanced software development, research, AI agents, strategy, governance, cost optimization, KPIs, SDLC, consulting, advisory, thought leadership, cross-team collaboration, mentorship, business development, client engagement
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
+  <application id="pwc-director-data-analytics-engineering-2026">
+    <company>PwC</company>
+    <role>Director, Data and Analytics Engineering (AI/ML)</role>
+    <location>US (not specified)</location>
+    <salary-range>Not specified</salary-range>
+    <date-applied>2026-02-11</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/pwc-director-data-analytics-engineering/resume.md</resume-path>
+    <job-url>https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/Advisory-National-CT-I---AI-Engineer---Director_684871WD-1</job-url>
+    <notes>
+      Director-level role in Big Four consulting firm. Sets strategic direction for AI initiatives, oversees cloud-native ML platform delivery, mentors next generation. Strong match: currently Principal AI Architect at McDonald's (10-layer AI platform, 350+ use cases, CIO endorsement), 7+ years at Google Cloud ($1.5B pipeline, 88 contributors), consulting DNA (advisory, methodology creation, training at scale). Key JD requirement "10 years in AI/ML engineering, software development, OR technical leadership" satisfied via 20+ years technical leadership path. Gaps: ML/deep learning hands-on depth (nascent), no Master's degree (preferred not required), no direct ML engineer team management (mitigated by influence-based leadership model typical of consulting). Context: Senior/Executive seniority, Technical function, Enterprise company type. REVISED v2: Sharpened PwC consulting alignment in summary (consulting DNA, data-driven decision making). Added keyword coverage for scalable, cloud-native microservices, CI/CD pipelines, reliability/maintainability, responsible AI governance, innovative technologies, production systems. Reorganized skills section with AI/ML &amp; Data Engineering lead category and dedicated AI Governance &amp; Process category. Promoted responsible AI governance bullet. Expanded Earlier Career to highlight consulting practice leadership at Revere Group.
+    </notes>
+    <keywords-matched>
+      AI/ML, machine learning, cloud-native, strategic direction, AI initiatives, cross-functional, Python, CI/CD pipelines, responsible AI, governance, mentoring, thought leadership, GCP, Azure, AWS, Kubernetes, production, large-scale, continuous improvement, knowledge sharing
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
+  <application id="figma-business-systems-architect-2026">
+    <company>Figma</company>
+    <role>Business Systems Architect (AI-Powered Internal Systems)</role>
+    <location>US (Remote or SF/NY hubs)</location>
+    <salary-range>$149,000-$260,000 USD</salary-range>
+    <date-applied>2026-02-11</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/figma-business-systems-architect/resume.md</resume-path>
+    <job-url></job-url>
+    <notes>
+      Business Systems Architect leading AI-powered internal systems and MCP (Model Control Plane) matrix design. Standout differentiator: Robin has hands-on MCP experience at Fortune 500 scale (McDonald's 10-layer AI platform) — extraordinarily rare in market. Strong match on enterprise architecture (20+ years), AI strategy (350+ use cases, 22 patterns), multi-model orchestration, vendor evaluation, cross-functional leadership (88 contributors), and architecture governance. Gap: no direct Salesforce/NetSuite/Workday/Notion experience — mitigated by MarTech SaaS stack integration (mParticle, Braze, SessionM, Dynamic Yield) and ServiceNow/Gravitee integration patterns. Compliance frameworks (SOC2/GDPR/ISO 27001) are nice-to-haves, addressed by AI compliance work with legal counsel and Google Cloud security positioning. Context: Senior/Executive seniority, Technical function, Scale-up company type.
+    </notes>
+    <keywords-matched>
+      AI, MCP, Model Context Protocol, architecture, integration, governance, enterprise systems, model orchestration, compliance, security, scalable, vendor selection, SaaS, multi-model, agent frameworks, cross-functional, lifecycle management
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
+  <application id="huron-digital-senior-director-applied-ai-growth-lead-2026">
+    <company>Huron Consulting</company>
+    <role>Digital Senior Director - Applied AI Growth Lead - Education &amp; Research</role>
+    <location>Chicago - 550 Van Buren</location>
+    <salary-range>$210,000-$275,000 base, $262,500-$371,250 total comp</salary-range>
+    <date-applied>2026-02-12</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/huron-digital-senior-director-applied-ai-growth-lead/resume.md</resume-path>
+    <job-url>https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/userHome</job-url>
+    <notes>
+      Senior Director-level AI Growth Lead role in global consulting firm. Owns AI GTM strategy, AI product development (ideation to launch), and revenue generation for Education &amp; Research vertical. Strong match: $1.5B pipeline generation at Google Cloud (10X growth, 9 months), AI strategy at McDonald's (350+ use cases, 22 patterns, 10 funded), multi-agent AI product development (Principio), build-vs-buy acquisition SME (Stratozone), 88-contributor matrixed program leadership, C-suite advisory (CIO endorsement, CEO presentations), consulting DNA (Revere Group practice lead, 8 advisory engagements). Key differentiator: rare combination of proven AI GTM revenue generation at scale AND hands-on AI product development. Primary gap: no direct Education &amp; Research vertical experience — mitigated via adjacency evidence (AI-powered course production pipeline, 154-person enterprise learning program integrated into Tech Academy, university mentorship at UIUC). Gap strategy: position AI GTM expertise as primary qualification that makes vertical knowledge secondary and acquirable. Context: Senior/Executive seniority, Executive/Sales hybrid function, Enterprise consulting firm. Travel: 50% acceptable (demonstrated via 20-city global tour, Rotterdam, RSA Conference).
+    </notes>
+    <keywords-matched>
+      AI Go-To-Market (GTM), Generative AI, Large Language Models (LLM), Machine Learning, enterprise-scale transformation, AI product management, consulting, advisory, revenue-generating AI offerings, build vs. buy vs. partner, matrixed organization, digital transformation, executive stakeholder, program management, AI governance, training program design
     </keywords-matched>
     <excitement-rating>HIGH</excitement-rating>
   </application>
