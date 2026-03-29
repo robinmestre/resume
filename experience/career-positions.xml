@@ -19,6 +19,20 @@
       <level>Director-equivalent</level>
       <dates start="2024-03" end="present"/>
 
+      <activity id="mcd-2024-portfolio-framework" type="strategic">
+        <situation>McDonald's had hundreds of potential AI use cases, but lacked a systematic way to evaluate, prioritize, deploy, and govern them at portfolio scale.</situation>
+        <task>Build a repeatable Stage-Gate framework, closing the AI strategy-execution gap.</task>
+        <action>Designed a 5-stage pipeline (Discover, Analyze, Architect, Activate, Validate) with 31 artifact schemers, 11 specialized AI agents, and integrated compliance feasibility scoring and Kaizen feedback loops.</action>
+        <result>Delivered an investment-grade assessment framework enabling evidence-based AI portfolio decisions, operational governance, and continuous value realization for McDonald's enterprise scale.</result>
+      </activity>
+
+      <activity id="mcd-2024-architecture-studio" type="strategic">
+        <situation>McDonald's needed structured, repeatable enterprise architecture reviews and greenfield designs across GCP but lacked a scalable AI assistant advisory process.</situation>
+        <task>Build AI-powered architecture workflows, employing Mixture of Experts agentic patterns.</task>
+        <action>Developed 90 Agents, Gated Human-in-the-Loop Design Pipeline, Consensus-based Review Aggregation, Shared Schemas, Calibration Harnesses, and Diataxis-aligned Documentation.</action>
+        <result>Delivered a reusable architecture studio producing structured reviews, design proposals, ADRs, compliance artifacts, and C4 diagrams with explicit human approval at every gate.</result>
+      </activity>
+
       <activity id="mcd-2024-10layer" type="strategic">
         <situation>McDonald's entered into strategic partnership with Google Cloud; key initiative was deploying McDonald's AI platform on Google Cloud to support AI agents and tools.</situation>
         <task>Design target state architecture for enterprise AI platform on Google Cloud Platform covering all layers from user interface to governance.</task>
