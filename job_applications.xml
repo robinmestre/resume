@@ -107,4 +107,22 @@
     </keywords-matched>
     <excitement-rating>HIGH</excitement-rating>
   </application>
+  <application id="cvs-health-distinguished-architect-applied-ai-2026">
+    <company>CVS Health</company>
+    <role>Distinguished Architect - Applied AI</role>
+    <location>Remote (USA)</location>
+    <salary-range>Not specified</salary-range>
+    <date-applied>2026-04-01</date-applied>
+    <status>resume-generated</status>
+    <resume-path>resumes/cvs-health-distinguished-architect-applied-ai/resume.md</resume-path>
+    <job-url></job-url>
+    <notes>
+      Distinguished Architect driving applied AI strategy for CVS Health technology organization. Strong match: 20+ years enterprise architecture, current AI platform design at McDonald's (10-layer reference architecture, CIO endorsement), hands-on applied AI (GenAI models, RAG, MCP, AI agents, prompt engineering, LangChain, multi-agent systems), 22 reusable AI patterns from 325 use cases, architecture governance (TOGAF, BIZBOK, Six Sigma), mentoring at scale (154 GCP Champs, 88 IBA contributors, 784+ trained), buy vs. build decision expertise (Stratozone acquisition SME), reference implementations and POCs (decision support tool, AI agents). Key differentiator: rare combination of enterprise architecture depth AND hands-on applied AI building experience. Gaps: No Master's/PhD (preferred, not required); model fine tuning experience is conceptual not hands-on; no direct healthcare industry experience (mitigated by enterprise scale across McDonald's/Google/Microsoft and regulatory/compliance work).
+    </notes>
+    <keywords-matched>
+      applied AI, reference architecture, GenAI models, AI pipelines, prompt engineering, RAG architectures, vector stores, MCP, LangChain, AI agents, modern application architecture, architecture governance, design patterns, standards, best practices, mentoring, coaching, POC, starter code, buy vs. build, scalability, security, enterprise, collaboration, influencing, negotiation, coalition-building, non-functional requirements, Agile
+    </keywords-matched>
+    <excitement-rating>HIGH</excitement-rating>
+  </application>
+
 </job-applications>

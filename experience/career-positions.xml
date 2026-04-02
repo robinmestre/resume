@@ -61,7 +61,7 @@
       <activity id="mcd-2024-opmodel" type="strategic">
         <situation>Following reorganization, architecture function lacked standardized operating model across Solution, Business, Enterprise, Data, and AI domains.</situation>
         <task>Establish comprehensive architecture operating model to standardize practices.</task>
-        <action>Applied Six Sigma SIPOC, SCAMPI/A, BIZBOK, TOGAF. Defined 9 core services, 45 artifacts, 12 services, 14 roles. Mapped 40 value streams. Used AI to refine services and capture artifact definitions and best practices. Published to Atlassian Confluence for global access.</action>
+        <action>Applied Six Sigma, SCAMPI/A, BIZBOK, TOGAF. Defined 9 core services, 45 artifacts, 12 services, 14 roles. Mapped 40 value streams. Used AI to refine services and capture artifact definitions and best practices. Published to Atlassian Confluence for global access.</action>
         <result>Established operating model covering 5 domains. Created 9 core services, 45 artifacts, 14 role definitions. Mapped 40 value streams. Published to Atlassian Confluence for global architectural organization access.</result>
         <tags>
           <domain ref="enterprise-architecture"><skill>Architecture operating model</skill><technology>TOGAF</technology><technology>BIZBOK</technology></domain>
